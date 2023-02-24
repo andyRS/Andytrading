@@ -1,0 +1,571 @@
+/*Generales*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+.clearfix {
+	clear: both;
+	float: none;
+}
+
+
+/*Fuentes*/
+
+@font-face {
+	font-family: "OpenSans-Regular";
+	src: url("Fuentes/OpenSans-Regular.ttf");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "OpenSans-Bold";
+	src: url("Fuentes/OpenSans-Bold.ttf");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Signika";
+	src: url("Fuentes/Signika-VariableFont_wght.ttf");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	background-color: #eeeeee;
+	font-family: "OpenSans-Regular";
+	
+}
+
+#container {
+	width: 95%;
+	background-color: rgb(255, 255, 255);
+	margin: 0px auto;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	box-shadow: 5px 0px 15px #ccc;
+	border-radius: 10px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+#header {
+	padding: 0px;
+}
+
+#header #barra_estilo {
+	width: 100%;
+	height: 115px;
+	background-color: #181818;
+}
+
+.b-estilop {
+	font-size: 18px;
+	color: white;
+	text-align: center;
+	line-height: 115px;
+	letter-spacing: 0.7px;
+}
+
+.b-stilop-autor {
+	color: white;
+	transition: all 300ms;
+}
+
+#header h1 {
+	font-size: 60px;
+	text-align: center;
+	font-family: 'Times New Roman', sans-serif;
+	font-weight: 700;
+	line-height: 80px;
+	letter-spacing: 3px;
+	margin-top: 20px;
+	padding: 5px;
+}
+
+#header #logo img {
+	display: block;
+	margin: 0px auto;
+	width: 20%;
+	margin-bottom: 15px;
+}
+
+#header h2 {
+	font-size: 30px;
+	text-align: center;
+	font-family: 'Times New Roman', sans-serif;
+	color: #222;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.btn-acceder a {
+	display: block;
+	width: 72%;
+	padding: 18px 20px;
+	margin: 0px auto;
+	font-size: 35px;
+	font-weight: 700;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	background-color: #0c58bb;
+	border-radius: 10px;
+	transition: all 300ms;
+}
+
+.b-stilop-academy a {
+	text-decoration: none;
+	color: white;
+}
+
+.b-stilop-academy a:hover {
+	color: rgb(221, 213, 213);
+}
+
+.btn-acceder a:hover {
+	background-color: #002f6d;
+	border-radius: 0px;
+}
+
+
+#whatssap {
+	display: block;
+	position: fixed;
+	top: 80%;
+	right: -7%;
+	transition: 300ms all;
+  }
+  
+  #whatssap img {
+	display: block;
+	width: 27%;
+	border-radius: 20px;
+	cursor: pointer;
+	position: relative;
+	top: -40px;
+}
+
+#video-envivo{
+    display: block;
+    width: 1080px;
+    height: 610px;
+    margin: 0px auto;
+    border-color: 2px solid #ccc;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+.fa-youtube-play{
+    display: block;
+    margin: 0px auto !important;
+    line-height: 610px !important;
+    text-align: center;
+    align-items: center;
+    font-size: 10em !important;
+    color: #ff6254;
+    position: relative;
+    left: 477px !important;
+    cursor: pointer;
+    transition: all 300ms;
+   
+}
+
+
+.fa-youtube-play:hover{
+    color: #fc402f;
+}
+
+
+.icon-grabar {
+	display: block;
+	margin: 0px auto;
+	position: relative;
+	left: -3px;
+	bottom: -27px;
+}
+
+.fa-video-camera{
+    display: block;
+    position: relative;
+    font-size: 8em !important;
+    color: #ff6254;
+    left: 30px;
+}
+
+.text-transmicion {
+	display: block;
+	font-size: 20px;
+	font-weight: 600;
+	position: relative;
+	top: -78px;
+	left: 202px;
+	color: green;
+}
+
+.btn-acceder a {
+	display: block;
+	width: 26%;
+	padding: 18px 20px;
+	margin: 0px auto;
+	font-size: 35px;
+	font-weight: 700;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	background-color: #0c58bb;
+	border-radius: 10px;
+	transition: all 300ms;
+	margin-bottom: 57px;
+}
+
+.btn-inicio img {
+	display: block;
+	width: 6%;
+	margin: 0px auto;
+	transition: all 300ms;
+	position: relative;
+	top: -16px;
+}
+
+.btn-inicio img:hover{
+	opacity: 0.70;
+}
+
+/*Estilos Galeria*/
+
+#container-galeria{
+    display: block;
+   
+    width: 100%;
+}
+
+.galeria{
+    display: block;
+
+    width: 100%;
+}
+
+.profits img {
+    width: 30%;
+    float: left;
+    margin: 7px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 15px;
+    padding-bottom: 80px;
+    border: 2px solid #ccc;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+
+.profits .h3 {
+    font-size: 20px;
+    color: rgb(54, 175, 54);
+	display: block;
+	position: relative;
+	left: 180px;
+	line-height: 0px;
+	top: 36px;
+}
+
+.detalles-link{
+    display: block;
+}
+
+.detalles-link a {
+	display: block;
+    width: 7%;
+	background: rgb(54, 175, 54);
+	padding: 15px;
+	text-align: center;
+	color: white;
+	font-size: 17px;
+    transition: all 300ms;
+    text-decoration: none;
+}
+
+.btn-detalles-01 {
+	display: block;
+	position: relative;
+	top: -546px;
+	left: 172px;
+}
+
+.btn-detalles-02 {
+	display: block;
+	position: relative;
+	top: -599px;
+	left: 658px;
+}
+
+
+.btn-detalles-03 {
+	display: block;
+	position: relative;
+	top: -652px;
+	left: 1137px;
+}
+
+.btn-detalles-04 {
+	display: block;
+	position: relative;
+	top: -264px;
+	left: 161px;
+}
+
+.btn-detalles-05 {
+	display: block;
+	position: relative;
+	top: -317px;
+	left: 655px;
+}
+
+.btn-detalles-06 {
+	display: block;
+	position: relative;
+	top: -371px;
+	left: 1120px;
+}
+
+.btn-detalles-07 {
+	display: block;
+	position: relative;
+	top: 19px;
+	left: 157px;
+}
+
+.btn-detalles-08 {
+	display: block;
+	position: relative;
+	top: -35px;
+	left: 656px;
+}
+
+
+.btn-detalles-08 {
+	display: block;
+	position: relative;
+	top: -41px;
+	left: 656px;
+}
+
+.btn-detalles-09 {
+	display: block;
+	position: relative;
+	top: -88px;
+	left: 1140px;
+}
+
+.btn-detalles-10 {
+	display: block;
+	position: relative;
+	top: 301px;
+	left: 148px;
+}
+
+.btn-detalles-11 {
+	display: block;
+	position: relative;
+	top: 247px;
+	left: 646px;
+}
+
+.btn-detalles-12 {
+	display: block;
+	position: relative;
+	top: 194px;
+	left: 1131px;
+}
+
+.detalles-link {
+	display: block;
+	position: relative;
+	top: -884px;
+}
+
+.detalles-link a:hover{
+    background-color: rgb(16, 214, 16);
+    opacity: 0.75;
+}
+
+.academy {
+	display: block;
+	width: 96%;
+	margin: 0px auto;
+	position: relative;
+	top: -206px;
+	border: 1px solid #ccc;
+	box-shadow: 0px 0px 10px #ccc;
+}
+
+
+/*SECCION INFO DETALLES*/
+
+/*Detalle-01*/
+#info-detalles-01,#info-detalles-02,#info-detalles-03,#info-detalles-04,#info-detalles-05,#info-detalles-06,#info-detalles-07,#info-detalles-08,
+#info-detalles-09,#info-detalles-10,#info-detalles-11,#info-detalles-12 {
+	display: none;
+	width: 85%;
+	height: 1103px;
+	background: rgb(255, 255, 255);
+	margin: 0px auto;
+	border: 2px solid #ccc;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px #ccc;
+	position: relative;
+	top: -2962px;
+	z-index: 1050;
+}
+
+#detalle-01 h3, #detalle-02 h3,#detalle-03 h3,#detalle-04 h3,#detalle-05 h3,#detalle-06 h3,#detalle-07 h3,#detalle-07 h3,#detalle-08 h3,
+#detalle-09 h3,#detalle-10 h3,#detalle-11 h3,#detalle-12 h3 {
+	display: block;
+	font-family: "OpenSans-Bold";
+	font-size: 35px;
+	text-align: center;
+	position: relative;
+	top: 58px;
+}
+
+#detalle-01 img, #detalle-02 img, #detalle-03 img, #detalle-04 img, #detalle-05 img, #detalle-06 img, #detalle-07 img, #detalle-08 img,
+#detalle-09 img,#detalle-10 img, #detalle-11 img, #detalle-12 img {
+	display: block;
+	max-width: 75%;
+	margin: 0px auto;
+	padding: 30px;
+	border-radius: 40px;
+	position: relative;
+	top: 55px;
+}
+
+.text-detalle-01, .text-detalle-02, .text-detalle-03, .text-detalle-04, .text-detalle-05, .text-detalle-06, .text-detalle-07, .text-detalle-08,
+.text-detalle-09, .text-detalle-10, .text-detalle-11, .text-detalle-12 {
+	display: block;
+	width: 70%;
+	height: 250px;
+	margin: 0px auto;
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	border: 1px solid #ccc;
+	box-shadow: 0px 0px 10px #ccc;
+	background: white;
+	top: 36px;
+}
+
+/*Boton X*/
+
+.fa-times {
+	display: block;
+	width: 5%;
+	color: tomato;
+	float: right;
+	font-size: 55px !important;
+	position: relative;
+	top: 29px;
+	left: -10px;
+	transition: all 30ms;
+}
+
+.fa-times:hover{
+	color: rgb(243, 115, 93);
+	opacity: 0.70;
+	cursor: pointer;
+}
+
+/* Fin estilos Boton X*/
+
+.btn-cerrar a {
+	display: block;
+	width: 10%;
+	margin: 0px auto;
+	padding: 14px 18px;
+	background: rgb(11, 193, 199);
+	color: rgb(255, 255, 255);
+	text-align: center;
+	text-decoration: none;
+	position: relative;
+	top: 64px;
+	transition: all 300ms;
+}
+
+.btn-cerrar a:hover{
+	background:  rgb(9, 146, 151);
+}
+
+/*ESTILOS DEL FOOTER*/
+
+#footer {
+	display: block;
+	width: 100%;
+	height: 432px;
+	margin: 0px auto;
+	color: white;
+	background-color: #181818;
+	text-align: center;
+}
+
+
+#footer #politicas-condiciones {
+	display: flex;
+	width: 100%;
+	align-content: center;
+	margin-left: 357px;
+	margin-top: -9px;
+	position: relative;
+	top: 184px;
+	left: 137px;
+}
+
+#footer p{
+	display: block;
+	margin: 0px auto;
+	position: relative;
+	top: 100px;
+}
+
+#footer #logo img {
+	display: block;
+	margin: 0px auto;
+	width: 12%;
+	position: relative;
+	top: 147px;
+}
+
+#footer #politicas-condiciones .politicas-terminos ul {
+	display: flex;
+	flex-flow: row wrap;
+	list-style: none;
+}
+
+#footer #politicas-condiciones .politicas-terminos ul li {
+	text-decoration: none;
+	border: none;
+	font-size: 14.5px;
+	padding: 25px;
+	margin: 0px auto;
+}
+
+#footer #politicas-condiciones .politicas-terminos ul li a {
+	text-decoration: none;
+	border: none;
+}
+
+#footer #politicas-condiciones .politicas-terminos ul li:hover a {
+	padding: 0px;
+	text-decoration: underline;
+}
+
+#footer ul li a{
+	color: white;
+	font-family: "OpenSans-Regular";
+	font-family: 20px;
+}

@@ -1,0 +1,921 @@
+@media (max-width: 1367px){
+    #container-galeria {
+        width: 100%;
+    }
+    
+    .profits img {
+        width: 29%;
+        margin: 11px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        padding: 15px;
+        padding-bottom: 80px;
+    }
+
+
+    .profits .h3 {
+        font-size: 18px;
+    }
+
+    .detalles-link {
+	    top: -783px;
+	    left: -96px;
+     }
+
+    .detalles-link a {
+        width: 10%;
+    }
+
+
+    /*Botones btn-detalles*/
+    .btn-detalles-01 {
+        top: -552px;
+        left: 224px;
+    }
+    .btn-detalles-02 {
+        top: -605px;
+        left: 662px;
+    }
+
+    .btn-detalles-03 {
+        display: block;
+        position: relative;
+        top: -658px;
+        left: 1104px;
+    }
+
+    .btn-detalles-04 {
+        display: block;
+        position: relative;
+        top: -301px;
+        left: 219px;
+    }
+
+    .btn-detalles-05 {
+        display: block;
+        position: relative;
+        top: -354px;
+        left: 660px;
+    }
+
+    .btn-detalles-06 {
+        display: block;
+        position: relative;
+        top: -407px;
+        left: 1104px;
+    }
+
+    .btn-detalles-07 {
+        display: block;
+        position: relative;
+        top: -50px;
+        left: 225px;
+    }
+
+    .btn-detalles-08 {
+        display: block;
+        position: relative;
+        top: -103px;
+        left: 667px;
+    }
+
+    .btn-detalles-09 {
+        display: block;
+        position: relative;
+        top: -157px;
+        left: 1101px;
+    }
+
+    .btn-detalles-10 {
+        display: block;
+        position: relative;
+        top: 199px;
+        left: 222px;
+    }
+
+    .btn-detalles-11 {
+        display: block;
+        position: relative;
+        top: 147px;
+        left: 671px;
+    }
+
+    .btn-detalles-12 {
+        display: block;
+        position: relative;
+        top: 94px;
+        left: 1100px;
+    }
+     /*Fin Botones btn-detalles*/
+
+   
+
+    .academy {
+        width: 98%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    #footer #politicas-condiciones {
+        top: 184px;
+        left: 59px;
+    }
+}
+   
+
+@media (max-width: 1024px){
+    #header h1 {
+        font-size: 40px;
+    }
+
+    #header h2 {
+        font-size: 28px;
+        color: #191818;
+    }
+
+    .profits img {
+        width: 27%;
+        padding: 18px;
+        padding-bottom: 80px;
+    }
+
+    .profits .h3 {
+        font-size: 17px; 
+        left: 123px;
+        top: 35px;
+    }
+
+    .detalles-link {
+        top: -593px;
+        left: -210px;
+    }
+
+    .detalles-link a {
+        width: 9%;
+        font-size: 14px;
+        text-align: center;
+    }
+
+
+    /*Botones btn-detalles*/
+
+    .btn-detalles-01 {
+        top: -555px;
+        left: 306px;
+    }
+
+    .btn-detalles-02 {
+        top: -604px;
+        left: 637px;
+    }
+
+    .btn-detalles-03 {
+        top: -653px;
+        left: 967px;
+    }
+
+    .btn-detalles-04 { 
+        top: -353px;
+        left: 309px;
+    }
+
+    .btn-detalles-05 {
+        top: -402px;
+        left: 640px;
+    }
+
+    .btn-detalles-06 {
+        top: -451px;
+        left: 966px;
+    }
+
+    .btn-detalles-07 {
+        top: -152px;
+        left: 316px;
+    }
+
+    .btn-detalles-08 {
+        top: -201px;
+        left: 640px;
+    }
+
+    .btn-detalles-09 {
+        top: -250px;
+        left: 964px;
+    }
+
+    .btn-detalles-10 {
+        top: 50px;
+        left: 305px;
+    }
+
+    .btn-detalles-11 {
+        top: 0px;
+        left: 643px;
+    }
+
+    .btn-detalles-12 {
+        top: -49px;
+        left: 970px;
+    }
+
+    .btn-acceder a {
+        width: 36%;
+        font-size: 27px;
+       
+    }
+
+    .academy {
+        width: 98%;
+        margin-top: -205px;
+        margin-bottom: 40px;
+    }
+
+    #footer #politicas-condiciones {
+        top: 184px;
+        left: -106px;
+    }
+
+    #whatssap img {
+        width: 24%;
+    }
+
+
+    #info-detalles-01, #info-detalles-02, #info-detalles-03, #info-detalles-04, #info-detalles-05, #info-detalles-06, #info-detalles-07, #info-detalles-08, #info-detalles-09, #info-detalles-10, #info-detalles-11, #info-detalles-12 {
+        display: none;
+        width: 85%;
+        height: 911px;
+        background: rgb(255, 255, 255);
+        margin: 0px auto;
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0px 0px 0px;
+        position: relative;
+        top: -2388px;
+        z-index: 1050;
+    }
+
+    .text-detalle-01, .text-detalle-02, .text-detalle-03, .text-detalle-04, .text-detalle-05, .text-detalle-06, .text-detalle-07, .text-detalle-08, .text-detalle-09, .text-detalle-10, .text-detalle-11, .text-detalle-12 {
+        display: block;
+        width: 86%;
+        height: 196px;
+        margin: 0px auto;
+        font-size: 22px;
+        text-align: justify;
+        position: relative;
+        border: 1px solid #ccc;
+        box-shadow: 0px 0px 10px #ccc;
+        background: #3a3e47;
+        top: 52px;
+        color: white;
+        line-height: 43px;
+        padding: 15px;
+    }
+
+    .btn-cerrar a {
+        width: 20%;
+    }
+}
+
+
+@media (max-width: 768px){
+    #header h1 {
+        font-size: 29px;
+    }
+    
+    .profits img {
+        width: 25%;
+        padding: 17px;
+        padding-bottom: 80px;
+    }
+
+    .profits .h3 {
+        font-size: 15px;
+        left: 83px;
+        top: 35px;
+    }
+
+    .detalles-link a {
+        width: 8%;
+        font-size: 10px;
+        text-align: center;
+    }
+
+
+    /*Botones btn-detalles*/
+
+    .btn-detalles-01 {
+        top: -410px;
+        left: 286px;
+    }
+
+    .btn-detalles-02 {
+        top: -453px;
+        left: 528px;
+    }
+
+    .btn-detalles-03 {
+        top: -498px;
+        left: 773px;
+    }
+
+    .btn-detalles-04 {
+        top: -238px;
+        left: 289px;
+    }
+
+    .btn-detalles-05 {
+        top: -282px;
+        left: 529px;
+    }
+
+    .btn-detalles-06 {
+        top: -325px;
+        left: 771px;
+    }
+
+    .btn-detalles-07 {
+        top: -66px;
+        left: 287px;
+    }
+
+    .btn-detalles-08 {
+        top: -109px;
+        left: 530px;
+    }
+
+    .btn-detalles-09 {
+        top: -153px;
+        left: 772px;
+    }
+
+    .btn-detalles-10 {
+        top: 106px;
+        left: 287px;
+    }
+
+    .btn-detalles-11 {
+        top: 62px;
+        left: 532px;
+    }
+
+    .btn-detalles-12 {
+        top: 19px;
+        left: 768px;
+    }
+
+    #whatssap img {
+        width: 27%;
+        top: -18px;
+    }
+
+    .btn-acceder a {
+        width: 33%;
+        font-size: 21px;
+    }
+
+    #footer #politicas-condiciones {
+        top: 184px;
+        left: -212px;
+        font-size: 9px;
+    }
+
+    #info-detalles-01, #info-detalles-02, #info-detalles-03, #info-detalles-04, #info-detalles-05, #info-detalles-06, #info-detalles-07, #info-detalles-08, #info-detalles-09, #info-detalles-10, #info-detalles-11, #info-detalles-12 {
+        display: none;
+        width: 85%;
+        height: 911px;
+        background: rgb(255, 255, 255);
+        margin: 0px auto;
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0px 0px 0px;
+        position: relative;
+        top: -2084px;
+        z-index: 1050;
+    }
+
+    #detalle-01 img, #detalle-02 img, #detalle-03 img, #detalle-04 img, #detalle-05 img, #detalle-06 img, #detalle-07 img, #detalle-08 img, #detalle-09 img, #detalle-10 img, #detalle-11 img, #detalle-12 img {
+        display: block;
+        max-width: 90%;
+        margin: 0px auto;
+        padding: 30px;
+        border-radius: 40px;
+        position: relative;
+        top: 55px;
+    }
+
+    .text-detalle-01, .text-detalle-02, .text-detalle-03, .text-detalle-04, .text-detalle-05, .text-detalle-06, .text-detalle-07, .text-detalle-08, .text-detalle-09, .text-detalle-10, .text-detalle-11, .text-detalle-12 {
+        font-size: 19px;
+    }
+
+    .fa-times {
+        width: 8%;
+        font-size: 48px !important;
+        top: 29px;
+        left: -10px;
+    }
+
+    #footer #politicas-condiciones {
+        top: 184px;
+        left: -232px;
+    }
+
+    .btn-cerrar a {
+        width: 20%;
+        margin-top: 30px;
+    }
+
+}
+
+
+@media(max-width: 416px){
+    .b-estilop {
+        font-size: 15px;
+    }
+
+    #header h1 {
+        font-size: 21px;
+        line-height: 29px;
+        letter-spacing: 0px;
+    }
+
+    #header h2 {
+        font-size: 22px;
+    }
+
+
+    .profits img {
+        width: 83%;
+        float: none;
+        margin: 7px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        padding: 20px;
+        padding-bottom: 80px;
+     
+    }
+
+    .profits .h3 {
+        font-size: 19px;
+        display: block;
+        position: relative;
+        left: 134px;
+    }
+
+    .detalles-link a {
+        width: 19%;
+        font-size: 13px;
+        text-align: center;
+        position: relative;
+        top: 20px;
+    }
+
+    #header #logo img {
+       width: 40%;
+    }
+
+    /*Botones btn-detalles*/
+
+     /*Btn-profit*/
+     .detalles-link {
+        top: -593px;
+        left: -212px;
+        width: 118%;
+    }
+
+    .btn-detalles-01 {
+        top: -3742px;
+        left: 343px;
+    }
+
+    .btn-detalles-02 {
+        top: -3408px;
+        left: 345px;
+    }
+
+    .btn-detalles-03 {
+        top: -3073px;
+        left: 344px;
+    }
+
+    .btn-detalles-04 {
+        top: -2737px;
+        left: 344px;
+    }
+
+    .btn-detalles-05 {
+        top: -2399px;
+        left: 345px;
+    }
+
+    .btn-detalles-06 {
+        top: -2066px;
+        left: 343px;
+    }
+
+    .btn-detalles-07 {
+        top: -1730px;
+        left: 340px;
+    }
+
+    .btn-detalles-08 {
+        top: -1395px;
+        left: 340px;
+    }
+
+    .btn-detalles-09 {
+        top: -1060px;
+        left: 340px;
+    }
+
+    .btn-detalles-10 {
+        top: -723px;
+        left: 340px;
+    }
+
+    .btn-detalles-11 {
+        top: -388px;
+        left: 340px;
+    }
+
+    .btn-detalles-12 {
+        top: -52px;
+        left: 340px;
+    }
+
+    #info-detalles-01, #info-detalles-02, #info-detalles-03, #info-detalles-04, #info-detalles-05, #info-detalles-06, #info-detalles-07, #info-detalles-08, #info-detalles-09, #info-detalles-10, #info-detalles-11, #info-detalles-12 {
+        width: 97%;
+        top: -5549px;
+        height: 753px;
+    }
+
+    #detalle-01 img, #detalle-02 img, #detalle-03 img, #detalle-04 img, #detalle-05 img, #detalle-06 img, #detalle-07 img, #detalle-08 img, #detalle-09 img, #detalle-10 img, #detalle-11 img, #detalle-12 img {
+        display: block;
+        max-width: 95%;
+        margin: 0px auto;
+        padding: 11px;
+        border-radius: 40px;
+        position: relative;
+        top: 53px;
+        margin-bottom: 30px;
+    }
+
+    #detalle-01 h3, #detalle-02 h3, #detalle-03 h3, #detalle-04 h3, #detalle-05 h3, #detalle-06 h3, #detalle-07 h3, #detalle-07 h3, #detalle-08 h3, #detalle-09 h3, #detalle-10 h3, #detalle-11 h3, #detalle-12 h3 {
+        font-size: 21px;
+    }
+
+    .btn-cerrar a {
+        width: 44%;
+        margin-top: 30px;
+    }
+
+    .text-detalle-01, .text-detalle-02, .text-detalle-03, .text-detalle-04, .text-detalle-05, .text-detalle-06, .text-detalle-07, .text-detalle-08, .text-detalle-09, .text-detalle-10, .text-detalle-11, .text-detalle-12 {
+        font-size: 14px;
+    }
+
+    .fa-times {
+        font-size: 39px !important;
+    }
+    
+
+    .btn-acceder a {
+        width: 41%;
+        font-size: 15px;
+    }
+
+
+    .btn-inicio img {
+        width: 14%;
+    }
+
+    #footer p {
+        font-size: 14px;
+    }
+
+    #footer #logo img {
+        width: 30%;
+    }
+
+    #footer #politicas-condiciones {
+        left: -325px;
+    }
+
+    #footer #politicas-condiciones .politicas-terminos ul li {
+        font-size: 12px;
+        padding: 13px;
+    }
+
+    #whatssap img {
+        width: 20%;
+        left: 129px;
+        top: -79px;
+    }
+}
+
+@media(max-width: 376px){
+
+    #header h1 {
+        font-size: 20px;
+    }
+
+    /*Btn-profit*/
+    .detalles-link {
+        top: -593px;
+        left: -212px;
+        width: 118%;
+    }
+
+    .btn-detalles-01 {
+        top: -3642px;
+        left: 328px;
+    }
+
+    .btn-detalles-02 {
+        top: -3315px;
+        left: 331px;
+    }
+
+    .btn-detalles-03 {
+        top: -2985px;
+        left: 330px;
+    }
+
+    .btn-detalles-04 {
+        top: -2659px;
+        left: 330px;
+    }
+
+    .btn-detalles-05 {
+        top: -2330px;
+        left: 332px;
+    }
+
+    .btn-detalles-06 {
+        top: -2003px;
+        left: 327px;
+    }
+
+    .btn-detalles-07 {
+        top: -1674px;
+        left: 338px;
+    }
+
+    .btn-detalles-08 {
+        top: -1347px;
+        left: 333px;
+    }
+
+    .btn-detalles-09 {
+        top: -1018px;
+        left: 332px;
+    }
+
+    .btn-detalles-10 {
+        top: -691px;
+        left: 339px;
+    }
+
+    .btn-detalles-11 {
+        top: -362px;
+        left: 335px;
+    }
+
+    .btn-detalles-12 {
+        top: -34px;
+        left: 340px;
+    }
+
+    #header h2 {
+        font-size: 18px;
+    }
+
+    #footer #politicas-condiciones {
+        left: -346px;
+    }
+
+    #footer p {
+        font-size: 13px;
+    }
+
+}
+
+@media (max-width: 360px){
+    .detalles-link a {
+        width: 23%;
+    }
+
+    .btn-detalles-01 {
+        top: -3563px;
+        left: 328px;
+    }
+
+    .btn-detalles-02 {
+        top: -3243px;
+        left: 328px;
+    }
+    
+    .btn-detalles-03 {
+        top: -2922px;
+        left: 328px;
+    }
+
+    .btn-detalles-04 {
+        top: -2602px;
+        left: 328px;
+    }
+    
+    .btn-detalles-05 {
+        top: -2280px;
+        left: 328px;
+    }
+
+    .btn-detalles-06 {
+        top: -1960px;
+        left: 328px;
+    }
+
+    .btn-detalles-07 {
+        top: -1639px;
+        left: 328px;
+    }
+
+    .btn-detalles-08 {
+        top: -1317px;
+        left: 328px;
+    }
+
+    .btn-detalles-09 {
+        top: -997px;
+        left: 328px;
+    }
+
+    .btn-detalles-10 {
+        top: -676px;
+        left: 328px;
+    }
+
+    .btn-detalles-11 {
+        top: -356px;
+        left: 328px;
+    }
+
+    .btn-detalles-12 {
+        top: -34px;
+        left: 328px;
+    }
+
+ 
+
+    #info-detalles-01, #info-detalles-02, #info-detalles-03, #info-detalles-04, #info-detalles-05, #info-detalles-06, #info-detalles-07, #info-detalles-08, #info-detalles-09, #info-detalles-10, #info-detalles-11, #info-detalles-12 {
+        top: -5258px;
+        height: 753px;
+    }
+
+    #detalle-01 img, #detalle-02 img, #detalle-03 img, #detalle-04 img, #detalle-05 img, #detalle-06 img, #detalle-07 img, #detalle-08 img, #detalle-09 img, #detalle-10 img, #detalle-11 img, #detalle-12 img {
+        display: block;
+        max-width: 98%;
+        margin: 0px auto;
+        padding: 0px;
+        border-radius: 40px;
+        position: relative;
+        top: 53px;
+        margin-bottom: 30px;
+    }
+
+    #detalle-01 h3, #detalle-02 h3, #detalle-03 h3, #detalle-04 h3, #detalle-05 h3, #detalle-06 h3, #detalle-07 h3, #detalle-07 h3, #detalle-08 h3, #detalle-09 h3, #detalle-10 h3, #detalle-11 h3, #detalle-12 h3 {
+        font-size: 19px;
+        top: 44px;
+    }
+
+    #header h2 {
+        font-size: 15px;
+    }
+
+    .btn-acceder a {
+        width: 56%;
+        font-size: 15px;
+    }
+
+    #footer p {
+        font-size: 13px;
+    }
+
+    #footer #politicas-condiciones {
+        left: -356px;
+    }
+}
+
+@media (max-width: 320px){
+    #header h1 {
+        font-size: 23px;
+    }
+
+    #header h2 {
+        font-size: 15px;
+    }
+
+    .profits img {
+        width: 83%;
+        margin: 4px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        padding: 20px;
+        padding-bottom: 80px;
+    }
+
+    .profits .h3 {
+        font-size: 16px;
+        left: 111px;
+    }
+
+  
+
+    .detalles-link a {
+        width: 26%;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .btn-detalles-01 {
+        top: -3363px;
+        left: 313px;
+    }
+
+    .btn-detalles-02 {
+        top: -3058px;
+        left: 313px;
+    }
+
+    .btn-detalles-03 {
+        top: -2754px;
+        left: 313px;
+    }
+
+    .btn-detalles-04 {
+        top: -2453px;
+        left: 313px;
+    }
+
+    .btn-detalles-05 {
+        top: -2150px;
+        left: 313px;
+    }
+
+    .btn-detalles-06 {
+        top: -1848px;
+        left: 313px;
+    }
+
+    .btn-detalles-07 {
+        top: -1546px;
+        left: 313px;
+    }
+
+    .btn-detalles-08 {
+        top: -1244px;
+        left: 313px;
+    }
+
+    .btn-detalles-09 {
+        top: -941px;
+        left: 313px;
+    }
+
+    .btn-detalles-10 {
+        top: -639px;
+        left: 313px;
+    }
+
+    .btn-detalles-11 {
+        top: -337px;
+        left: 313px;
+    }
+
+    .btn-detalles-12 {
+        top: -34px;
+        left: 313px;
+    }
+
+    .academy {
+        width: 96%;
+    }
+
+    #info-detalles-01, #info-detalles-02, #info-detalles-03, #info-detalles-04, #info-detalles-05, #info-detalles-06, #info-detalles-07, #info-detalles-08, #info-detalles-09, #info-detalles-10, #info-detalles-11, #info-detalles-12 {
+        width: 98%;
+        top: -5017px;
+        height: 753px;
+    }
+
+    #footer p {
+        font-size: 11px;
+    }
+
+    #footer #politicas-condiciones .politicas-terminos ul li {
+        font-size: 11px;
+        padding: 11px;
+    }
+
+    #footer #politicas-condiciones {
+        left: -358px;
+    }
+}

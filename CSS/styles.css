@@ -1,0 +1,1498 @@
+/*Generales*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+	outline: 0px;
+	box-sizing: border-box;
+	
+}
+
+body {
+	background-color: #eeeeee;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	overflow-x: hidden;
+
+}
+
+.clearfix {
+	clear: both;
+	float: none;
+}
+
+
+/*Fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@font-face {
+	font-family: "OpenSans-Regular";
+	src: url("Fuentes/OpenSans-Regular.ttf");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "OpenSans-Bold";
+	src: url("Fuentes/OpenSans-Bold.ttf");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Signika";
+	src: url("Fuentes/Signika-VariableFont_wght.ttf");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+
+#social-redes {
+    position: fixed;
+    top: 40%;
+    background: rgba(155, 137, 137, 0.5);
+    width: 38px;
+    height: 150px;
+}
+
+#instagram,
+#facebook,
+#youtube{
+	width: 35px;
+	height: 35px;
+	display: block;
+	margin: 0px auto;
+	margin-top: 5px;
+	margin-bottom: 14px;
+	cursor: pointer;
+	transition: all 300ms;
+}
+
+
+#instagram{
+	background-image: url(../img/instagram.png);
+	background-repeat: no-repeat;
+	
+}
+
+#instagram:hover{
+	transform: rotateY(180deg);
+    transform-style: preserve-3d;
+}
+
+#facebook{
+	background-image: url(../img/facebook.png);
+	background-repeat: no-repeat;
+	
+}
+
+#facebook:hover{
+	transform: rotateY(180deg);
+    transform-style: preserve-3d;
+}
+
+
+
+#youtube{
+	background-image: url(../img/youtube.png);
+	background-repeat: no-repeat;
+	
+}
+
+#youtube:hover{
+	transform: rotateY(180deg);
+    transform-style: preserve-3d;
+}
+
+#container {
+	max-width: 95%;
+	background-color: rgb(255, 255, 255);
+	margin: 0px auto;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	box-shadow: 5px 0px 15px #ccc;
+	border-radius: 10px;
+}
+
+#header {
+	display: block;
+}
+
+#menu {
+	background-color: #222;
+	height: 90px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #fff;
+	box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
+	border-radius: 15px;
+}
+
+.logo{
+	color: #fff;
+	font-size: 35px;
+	padding:  0 80px;
+	font-weight: bold;
+}
+
+.menu_items {
+	display: flex;
+	list-style: none;
+	margin-right: 30px;
+}
+
+.menu_items li{
+	border-radius: 3px;
+	margin: 0 5px;
+}
+
+.menu_items li a {
+	padding: 16px 5px;
+	text-decoration: none;
+	font-size: 14.5px;
+	display: block;
+	text-transform: uppercase;
+	color: #fff;
+	transition: .4s;
+}
+
+.btn_menu{
+	margin-right: 30px;
+	font-size: 25px;
+	color: #fff;
+	cursor: pointer;
+	display: none;
+}
+
+.fa-bars {
+	color: #fff;
+	font-size: 33px !important;
+}
+
+ul.show {
+    top: 69px;
+}
+
+ul.hide {
+    top: -70px;
+}
+
+
+.menu_items li:hover, li.active{
+	background-color: rgba(0, 0, 0, .3);
+	 
+}
+
+/*
+#header #barra_estilo {
+	width: 100%;
+	height: 115px;
+	background-color: #181818;
+}
+
+
+.b-estilop {
+	font-size: 18px;
+	color: white;
+	text-align: center;
+	line-height: 115px;
+	letter-spacing: 0.7px;
+}
+
+.b-stilop-autor {
+	color: white;
+	transition: all 300ms;
+}
+*/
+
+#header h1 {
+	font-size: 50px;
+	text-align: center;
+	font-family: 'Opens Sans', Helvetica, sans-serif;
+	line-height: 80px;
+	letter-spacing: 3px;
+	text-shadow: rgb(0, 0, 0) 0px 0px 0px;
+	margin-top: 20px;
+	padding: 5px;
+	left: 178px;
+}
+	
+
+#header #logo img {
+	display: block;
+	margin: 0px auto;
+	width: 20%;
+	margin-bottom: 15px;
+}
+
+#header h2 {
+	font-size: 30px;
+	text-align: center;
+	color: #222;
+	margin-bottom: 20px;
+	position: relative;
+	align-items: center;
+
+}
+
+.btn-acceder a {
+	display: block;
+	width: 57%;
+	padding: 26px 20px;
+	margin: 0px auto;
+	font-size: 30px;
+	font-weight: 700;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	background-color: #0c58bb;
+	border-radius: 10px;
+	transition: all 300ms;
+}
+
+
+
+.btn-acceder-guianovatos a {
+	display: block;
+	width: 24%;
+	padding: 12px 11px;
+	margin: 0px auto;
+	font-size: 30px;
+	font-weight: 700;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	background-color: #0c58bb;
+	border-radius: 10px;
+	transition: all 300ms;
+	position: relative;
+	top: 89px;
+}
+
+
+.b-stilop-academy a {
+	text-decoration: none;
+	color: white;
+}
+
+.b-stilop-academy a:hover {
+	color: rgb(221, 213, 213);
+}
+
+.btn-acceder a:hover {
+	background-color: #002f6d;
+	border-radius: 0px;
+}
+
+.btn-acceder-guianovatos a:hover {
+	background-color: #002f6d;
+	border-radius: 0px;
+	width: 26%;
+}
+
+#estrategia {
+	width: 80%;
+	display: block;
+	margin: 0px auto;
+	margin-top: 215px;
+}
+
+#estrategia h3 {
+	background-color: #e3f15f;
+	height: 90px;
+	line-height: 90px;
+	font-family: "OpenSans-Bold";
+	font-size: 45px;
+	text-align: center;
+}
+
+#estrategia p {
+	display: block;
+	font-size: 35px;
+	font-weight: 200;
+	text-align: justify;
+	line-height: 79px;
+	margin: 10px;
+	padding: 25px;
+}
+
+#video {
+	width: 78%;
+	display: block;
+	margin: 0px auto;
+	margin-bottom: 20px;
+	padding: 20px;
+	padding-bottom: 30px;
+	text-align: center;
+	border: 2px solid #ccc;
+	box-shadow: 0px 0px 10px #ccc;
+}
+
+#video-fundador{
+	display: block;
+	width: 80%;
+	height: 725px;
+	margin: 0px auto;
+	margin-top: 50px;
+	border: 1px solid #ccc;
+	box-shadow: 0px 0px 10px #ccc;
+	
+}
+
+
+#video-fundador h3{
+	display: block;
+	width: 80%;
+	margin: 0px auto;
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	top: 18px;
+	border-bottom: 1px solid #ccc;
+}
+
+#video h3 {
+	font-size: 31px;
+	margin-bottom: 20px;
+	border-bottom: 2px solid #ccc;
+}
+
+#video p {
+	font-size: 18px;
+	text-shadow: rgb(0, 0, 0) 0px 0px 0px;
+	position: relative;
+	top: 12px;
+}
+
+#contentido {
+	width: 80%;
+	display: block;
+	margin: 0px auto;
+	border: 1px solid #ccc;
+	box-shadow: 0px 0px 10px #ccc;
+	margin-top: 100px;
+}
+
+#contenido-h3-filosofia {
+	height: 115px;
+	line-height: 115px !important;
+	font-family: "OpenSans-Bold";
+	background-color:  #e3f15f;
+	margin-bottom: 30px;
+	font-size: 40px;
+	text-align: center;
+	color: black;
+}
+
+.text-contenido {
+	display: block;
+	font-size: 30px;
+	text-align: justify;
+	margin: 30px;
+	padding: 20px;
+	line-height: 72px;
+	letter-spacing: 1px;
+	border-bottom: 2px solid #ccc;
+}
+
+.contadores h3 {
+	width: 100%;
+	display: block;
+	line-height: 0px;
+	margin: 0px auto;
+	position: relative;
+	left: 90px;
+	top: 70px;
+}
+
+.iconos img {
+	float: left;
+}
+
+.contadores {
+	display: block;
+	width: 100%;
+	margin: 0px auto;
+}
+
+.contadores img {
+	width: 14%;
+	padding: 30px;
+	margin: 30px;
+	margin-top: 70px;
+}
+
+
+.contador{
+	width: 24.7%;
+	text-align: center;
+	display: inline-block;
+	margin-top: 40px;
+	margin-top: 40px;
+}
+
+.fa-globe{
+	color: #44ddbc;
+}
+
+.fa-thumbs-up{
+	color: #2ca2da;
+}
+
+.fa-address-card-o{
+	color: #f14d24;
+}
+
+.fa-bar-chart{
+	color: #143f78;
+}
+
+.fa-5x{
+	font-size: 7em !important;
+}
+
+
+@keyframes aparecer{
+	0%{
+		opacity: 0;
+		transform: translateY(100px);
+	}
+
+	100%{
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.ocultar{
+	opacity: 0;
+}
+
+.animar{
+	animation: aparecer 1.3s;
+}
+
+.contador_cantidad{
+	font-size: 30px;
+	margin: 10px 0px;
+	font-weight: 900;
+
+}
+
+.btn-contactenos a {
+	display: block;
+	font-size: 28px;
+	font-weight: 700;
+	width: 26%;
+	margin: 0px auto;
+	background-color: #e3f15f;
+	color: #111;
+	padding: 18px 24px;
+	text-decoration: none;
+	text-align: center;
+	transition: all 300ms;
+	margin-bottom: 83px;
+	position: relative;
+	top: 83px;
+}
+
+.btn-contactenos a:hover {
+	background-color: #e0f527;
+	width: 28%;
+	color: #444;
+	border-radius: 10px;
+}
+
+#traders {
+	width: 80%;
+	margin: 0px auto;
+	margin-top: 100px;
+	border: 1px solid #ccc;
+	box-shadow: 0px 0px 10px #ccc;
+}
+
+#trader img {
+	display: block;
+	border-radius: 200px;
+	margin: 0px auto;
+	margin-top: 110px;
+}
+
+#trader h4 {
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+}
+
+#trader .trader-email {
+	display: block;
+	font-size: 19px;
+	color: #444;
+	text-align: center;
+	border-bottom: 2px solid #ccc;
+}
+
+#icono-email img {
+	display: block;
+	width: 3%;
+	border-radius: 0px;
+	position: relative;
+	bottom: 62px;
+	left: 235px;
+}
+
+#trader p {
+	display: block;
+	width: 91%;
+	margin: 0px auto;
+	font-size: 30px;
+	line-height: 77px;
+	text-align: justify;
+	padding: 20px;
+	letter-spacing: 1px;
+	
+}
+
+.maquinas-text a {
+	display: block;
+	width: 40%;
+	margin: 0px auto;
+	font-size: 31px;
+	color: #01d7e1;
+	text-align: center;
+	text-decoration: none;
+	border-bottom: 1px solid #ccc;
+	box-shadow: 0px 0px 5px #ccc;
+	transition: all 300ms;
+}
+
+.maquinas-text a:hover {
+	background: #222;
+	color: white;
+	cursor: pointer;
+}
+#video-fundador,
+#video1,
+#video2,
+#video3 {
+	display: block;
+	width: 80%;
+	height: 725px;
+	margin: 0px auto;
+	margin-top: 50px;
+	border: 1px solid #ccc;
+	box-shadow: 0px 0px 10px #ccc;
+}
+.recopilacion-video-0,
+.recopilacion-video-1,
+.recopilacion-video-2,
+.recopilacion-video-3 {
+	display: block;
+	position: relative;
+	left: 40px;
+	top: 40px;
+}
+
+#video-fundador h4 {
+	display: block;
+	width: 80%;
+	margin: 0px auto;
+	font-size: 26px;
+	text-align: center;
+	position: relative;
+	top: 18px;
+	border-bottom: 1px solid #ccc;
+}
+
+#video1 h4 {
+	display: block;
+	width: 80%;
+	margin: 0px auto;
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	top: 18px;
+	border-bottom: 1px solid #ccc;
+}
+
+#video2 h4 {
+	display: block;
+	width: 80%;
+	margin: 0px auto;
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	top: 18px;
+	border-bottom: 1px solid #ccc;
+}
+
+#video3 h4 {
+	display: block;
+	width: 80%;
+	margin: 0px auto;
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	top: 18px;
+	border-bottom: 1px solid #ccc;
+}
+
+
+.text-dowm-videos {
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+}
+
+#libertad-financiera {
+	width: 80%;
+	display: block;
+	margin: 0px auto;
+	margin-top: 100px;
+	margin-bottom: 40px;
+	border: 1px solid #ccc;
+	box-shadow: 0px 0px 10px #ccc;
+}
+
+#libertad-financiera h4 {
+	font-size: 28px;
+	height: 110px;
+	line-height: 110px;
+	text-align: center;
+	background-color: #dff049;
+}
+
+#libertad-financiera p {
+	display: block;
+	margin: 0px auto;
+	width: 70%;
+	font-size: 23px;
+	font-weight: 700;
+	text-align: center;
+	margin-top: 15px;
+	border-bottom: 2px solid #ccc;
+}
+
+.maquinas-ganancias-comercial {
+	display: block;
+	width: 100%;
+	margin: 0px auto;
+	margin-top: 60px;
+}
+
+.maquinas-ganancias-comercial img {
+	display: block;
+	width: 65%;
+	margin: 0px auto;
+	margin-bottom: 60px;
+	border: 40px solid rgb(255, 255, 255);
+	box-shadow: 0px 2px 10px #ccc;
+}
+
+.p-textcomercial {
+	font-family: 'Times New Roman', serif;
+	font-size: 23px;
+	font-weight: 700;
+	text-align: center;
+}
+
+#libertad-financiera .texto-comercial-trader {
+	display: block;
+	font-weight: 300;
+	font-size: 27px;
+	width: 80%;
+	line-height: 67px;
+	letter-spacing: 0.2px;
+	margin: 0px auto;
+	margin-top: 20px;
+	margin-bottom: 80px;
+	text-align: justify;
+	border-bottom: 0px;
+}
+
+.texto-comercial-trader > #canal-telegram a{
+	display: inline-block;
+	color: #06a7d8;
+	text-decoration: none;
+	transition: all 300ms;
+}
+
+#canal-telegram:hover a{
+	text-decoration: underline;
+		
+}
+
+#canal-telegram a:visited{
+	color: #0d3fca;
+}
+
+#curso-academy {
+	display: block;
+	width: 80%;
+	height: 1506px;
+	margin: 0px auto;
+	margin-top: 100px;
+	border: 1px solid #ccc;
+	box-shadow: 0px 0px 10px #ccc;
+}
+
+#curso-academy h4 {
+	display: block;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	font-size: 30px;
+	background-color: #dff049;
+}
+
+.img-recurso{
+    display: block;
+    width: 100%;
+}
+
+.img-recurso img{
+    float: right;
+}
+
+.text-slogan {
+	display: block;
+	font-size: 45px;
+	margin: 0px auto;
+	font-family: "OpenSans-Bold";
+	color: #212121;
+	position: relative;
+	top: 94px;
+	left: 104px;
+	line-height: 45px;
+}
+
+.text-movil {
+	display: block;
+	position: relative;
+	left: 67px;
+}
+
+.text-atfer-slogan {
+	display: block;
+	position: relative;
+	top: 112px;
+	left: 151px;
+	letter-spacing: 2px;
+	line-height: 33px;
+	color: #a9ae04;
+	font-weight: 700;
+}
+
+.text-pregabado {
+	display: block;
+	position: relative;
+	left: -13px;
+}
+
+.text-vivo {
+	display: block;
+	position: relative;
+	left: 91px;
+	top: -39px;
+}
+
+.lista-cursoacademy {
+	width: 45%;
+	display: block;
+	position: relative;
+	top: -260px;
+	left: 72px;
+	font-size: 20px;
+	line-height: 35px;
+	color: #444;
+}
+
+.signals-vip .imagen-signals img{
+	display: block;
+	position: relative;
+	left: 0px;
+}
+
+.text-slogan-señales {
+	display: block;
+	font-size: 45px;
+	margin: 0px auto;
+	font-family: "OpenSans-Bold";
+	color: #212121;
+	position: relative;
+	top: -461px;
+	left: 671px;
+	line-height: 45px;
+}
+
+.mover-singals {
+	display: block;
+	position: relative;
+	left: 138px;
+}
+
+.text-movil-señales {
+	display: block;
+	position: relative;
+	left: 84px;
+}
+
+.text-after-signals {
+	display: block;
+	position: relative;
+	top: -425px;
+	left: 803px;
+	letter-spacing: 0.4px;
+	color: #a9ae1b;
+	font-weight: bold;
+}
+
+.text-pruebasignals {
+	display: block;
+	position: relative;
+	top: -447px;
+	left: 750px;
+	width: 33%;
+	text-align: justify;
+	line-height: 34px;
+	font-size: 18px;
+	color: #444;
+}
+
+#no-multinivel {
+	display: block;
+	width: 80%;
+	margin: 0px auto;
+	margin-top: 60px;
+	height: 240px;
+	background-color: #49e1e9;
+	border: 1px solid #ccc;
+	box-shadow: 0px 0px 10px #ccc;
+	color: #111;
+}
+
+#no-multinivel h5 {
+	display: block;
+	width: 63%;
+	margin: 0px auto;
+	font-family: "OpenSans-Bold";
+	font-size: 30px;
+	text-align: center;
+	line-height: 61px;
+	position: relative;
+	top: 30px;
+}
+
+/*GUIA NOVATOS EN PROCESO*/
+#guia-novatos {
+	width: 100%;
+	height: 700px;
+	
+}
+
+.card-novatos {
+	width: 80%;
+	height: 739px;
+	margin: 0px auto;
+	margin-top: 100px;
+	margin-bottom: 60px;
+	display: block;
+	border: 1px solid #ccc;
+	box-shadow: 0px 0px 10px #ccc;
+}
+
+
+.card-novatos img {
+	display: block;
+	width: 85.2%;
+	background: #83b499;
+	margin: 0px auto;
+	position: relative;
+	padding: 15px;
+	top: 61px;
+	border: 1px solid #ccc;
+	box-shadow: 0px 0px 10px #ccc;
+	left: 20px;
+	transition: all 300ms;
+}
+
+.card-novatos img:hover{
+	opacity: 0.6;
+	background: #02d7e1;
+}
+
+/*FIN GUIA NOVATOS EN PROCESO*/
+
+#cards-options{
+	width: 80%;
+	height: 627px;
+	margin: 0px auto;
+	margin-top: 100px;
+	margin-bottom: 60px;
+	display: block;
+	border: 1px solid #ccc;
+	box-shadow: 0px 0px 10px #ccc;
+}
+
+#cards-options h4{
+	display: block;
+	width: 60%;
+	margin: 0px auto;
+	background: #e3f15f;
+	margin-top: 30px;
+	font-family: "OpenSans-Bold";
+	font-size: 30px;
+	text-align: center;
+	border-bottom: 2px solid #ccc;
+}
+
+#cards-options .operandoenvivo-card img {
+	display: block;
+	width: 85.2%;
+	margin: 0px auto;
+	position: relative;
+	padding: 20px;
+	padding-bottom: 77px;
+	top: 100px;
+	border: 1px solid #ccc;
+	box-shadow: 0px 0px 10px #ccc;
+	left: 20px;
+	transition: all 300ms;
+}
+
+#cards-options .profits img {
+	display: block;
+	width: 35.8%;
+	margin: 0px auto;
+	position: relative;
+	left: 83px;
+	top: 101px;
+	padding: 20px;
+	padding-bottom: 77px;
+	border: 1px solid #ccc;
+	box-shadow: 0px 0px 10px #ccc;
+	transition: all 300ms;
+}
+
+#cards-options .card-1, .card-2 img{
+	width: 50%;
+	display: block;
+	float: left;
+}
+
+
+.card-1 h5, .card-2 h5 {
+	display: block;
+	font-size: 25px;
+	position: relative;
+	top: 94px;
+	left: 177px;
+}
+
+.btn-card-1 a {
+	display: block;
+	width: 22%;
+	padding: 16px 17px;
+	background-color: #a9ae1b;
+	color: black;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+	left: 219px;
+	top: 33px;
+	transition: all 300ms;
+}
+
+.btn-card-2 a {
+	display: block;
+	width: 11%;
+	padding: 16px 17px;
+	background-color: #a9ae1b;
+	color: black;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+	left: 806px;
+	top: -24px;
+	transition: all 300ms;
+}
+
+.text-relleno{
+	display: none;
+}
+
+.btn-card-1 a:hover, .btn-card-2 a:hover{
+	background-color: #eff53b;
+}
+
+#box-acordeon{
+	display: block;
+	width: 80%;
+	margin: 0px auto;
+	margin-top:40px;
+	border: 1px solid #ccc;
+	box-shadow: 0px 0px 10px #ccc;
+}
+
+#box-acordeon h5{
+	display: block;
+	width: 40%;
+	margin: 0px auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 40px;
+	text-align: center;
+	border-bottom: 2px solid #ccc;
+}
+
+.ui-accordion .ui-accordion-header {
+	display: block;
+	cursor: pointer;
+	position: relative;
+	margin: 2px 0 0 0;
+	padding: .5em .5em .5em .7em;
+	font-size: 126%;
+}
+
+#acordeon{
+	margin-top: 20px;
+}
+
+#riesgo{
+	display: block;
+	width: 80%;
+	height: auto;
+	margin: 0px auto;
+	margin-bottom: 100px;
+	margin-top: 60px;
+	border: 1px solid #ccc;
+	box-shadow: 0px 0px 10px #ccc;
+}
+
+#riesgo h5{
+	display: block;
+	width: 60%;
+	margin: 0px auto;
+	margin-bottom: 30px;
+	text-align: center;
+	color: #e91b1b;
+	font-size: 40px;
+	font-family: "OpenSans-Bold";
+	border-bottom: 2px solid #a9ae1b;
+}
+
+#riesgo p{
+	display: block;
+	font-family: 'Times New Roman', serif;
+	font-size: 27px;
+	width: 80%;
+	line-height: 50px;
+	letter-spacing: 0.2px;
+	margin: 0px auto;
+	margin-top: 20px;
+	margin-bottom: 80px;
+	text-align: justify;
+}
+
+
+/*PLANES DE TRADING*/
+#cards-options-paquetes {
+	width: 90%;
+	height: 627px;
+	margin: 0px auto;
+	margin-top: 100px;
+	margin-bottom: 60px;
+	display: block;
+	border: 1px solid #ccc;
+	box-shadow: 0px 0px 10px #ccc;
+}
+
+#cards-options-paquetes h4{
+	display: block;
+	font-size: 30px;
+	font-family: "OpenSans-Bold";
+	text-align: center;
+	height: 80px;
+	line-height: 80px;
+	background: #16dfec;
+
+}
+
+#cards-options-paquetes .card-1-planes, .card-2-planes img{
+	width: 50%;
+	display: block;
+	float: left;
+	
+}
+
+
+.card-1-planes h5, .card-2-planes h5 {
+	display: block;
+	font-size: 25px;
+	position: relative;
+	top: 94px;
+	left: 177px;
+}
+
+
+#cards-options-paquetes .operandoenvivo-card-planes img {
+	display: block;
+	width: 85.2%;
+	margin: 0px auto;
+	position: relative;
+	padding: 20px;
+	padding-bottom: 77px;
+	top: 24px;
+	border: 1px solid #ccc;
+	box-shadow: 0px 0px 10px #ccc;
+	left: 1px;
+	transition: all 300ms;
+}
+
+#cards-options-paquetes .profits-planes img {
+	display: block;
+	width: 42.5%;
+	margin: 0px auto;
+	position: relative;
+	left: 28px;
+	top: 25px;
+	padding: 20px;
+	padding-bottom: 77px;
+	border: 1px solid #ccc;
+	box-shadow: 0px 0px 10px #ccc;
+	transition: all 300ms;
+}
+
+
+#cards-options-paquetes .operandoenvivo-card-planes img:hover{
+	filter: saturate(180%);
+	opacity: 0.9;
+}
+
+#cards-options-paquetes .profits-planes img:hover{
+	filter: saturate(180%);
+	opacity: 0.9;
+}
+
+.btn-card-1-planes a {
+	display: block;
+	width: 25%;
+	padding: 16px 17px;
+	background-color: #a9ae1b;
+	color: black;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+	left: 219px;
+	top: -29px;
+	transition: all 300ms;
+}
+
+.btn-card-2-planes a {
+	display: block;
+	width: 14%;
+	padding: 16px 17px;
+	background-color: #a9ae1b;
+	color: black;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+	left: 869px;
+	top: -82px;
+	transition: all 300ms;
+}
+
+
+.text-relleno{
+	display: none;
+}
+
+.btn-card-1-planes a:hover, .btn-card-2-planes a:hover{
+	background-color: #eff53b;
+}
+
+
+/*
+#cards-options{
+	width: 80%;
+	height: 627px;
+	margin: 0px auto;
+	margin-top: 100px;
+	margin-bottom: 60px;
+	display: block;
+	border: 1px solid #ccc;
+	box-shadow: 0px 0px 10px #ccc;
+}
+
+#cards-options h4{
+	display: block;
+	width: 60%;
+	margin: 0px auto;
+	background: #e3f15f;
+	margin-top: 30px;
+	font-family: "OpenSans-Bold";
+	font-size: 30px;
+	text-align: center;
+	border-bottom: 2px solid #ccc;
+}
+
+#cards-options .operandoenvivo-card img {
+	display: block;
+	width: 85.2%;
+	margin: 0px auto;
+	position: relative;
+	padding: 20px;
+	padding-bottom: 77px;
+	top: 100px;
+	border: 1px solid #ccc;
+	box-shadow: 0px 0px 10px #ccc;
+	left: 20px;
+	transition: all 300ms;
+}
+
+#cards-options .profits img {
+	display: block;
+	width: 35.8%;
+	margin: 0px auto;
+	position: relative;
+	left: 83px;
+	top: 101px;
+	padding: 20px;
+	padding-bottom: 77px;
+	border: 1px solid #ccc;
+	box-shadow: 0px 0px 10px #ccc;
+	transition: all 300ms;
+}
+
+
+
+.btn-card-1 a {
+	display: block;
+	width: 22%;
+	padding: 16px 17px;
+	background-color: #a9ae1b;
+	color: black;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+	left: 219px;
+	top: 33px;
+	transition: all 300ms;
+}
+
+.btn-card-2 a {
+	display: block;
+	width: 11%;
+	padding: 16px 17px;
+	background-color: #a9ae1b;
+	color: black;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+	left: 806px;
+	top: -24px;
+	transition: all 300ms;
+}
+
+
+*/
+
+/*FIN PLANES DE TRADING*/
+
+#contacto {
+	display: block;
+	width: 80%;
+	margin: 0px auto;
+	margin-top: 100px;
+	margin-bottom: 60px;
+	border: 1px solid #ccc;
+	box-shadow: 0px 0px 10px #ccc;
+  }
+  
+  #contacto h5 {
+	display: block;
+	width: 60%;
+	margin: 0px auto;
+	background: #e3f15f;
+	margin-top: 30px;
+	font-family: "OpenSans-Bold";
+	font-size: 30px;
+	text-align: center;
+	border-bottom: 2px solid #ccc;
+	
+  }
+  
+  
+  .contact-texto p {
+	display: block;
+	text-align: center;
+	font-size: 23px;
+	position: relative;
+	top: 16px;
+}
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  label {
+	display: block;
+	padding: 20px;
+	margin: 0px auto;
+	width: 45%;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"] {
+	font-size: 18px;
+  }
+  
+  #contacto textarea {
+	display: block;
+	width: 63%;
+	border: none;
+	border-bottom: 2px solid #000000;
+	font-size: 17px;
+	margin: 0px auto;
+	margin-bottom: 40px;
+	padding: 30px;
+	font-size: 18px;
+  }
+  
+  .submit {
+	display: block;
+	margin: 0px auto;
+	padding: 18px 22px;
+	color: white;
+	font-size: 20px;
+	background-color: rgb(238, 34, 34);
+	border-radius: 3px;
+	margin-bottom: 40px;
+	transition: 300ms all;
+  }
+
+  
+  .submit:hover {
+	background-color: red;
+	padding-left: 40px;
+	padding-right: 40px;
+	cursor: pointer;
+  }
+  
+  #contacto label {
+	display: block;
+	color: #222;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 700;
+	position: relative;
+	bottom: -14px;
+  }
+  
+  .text-textarea {
+	display: block !important;
+	position: relative !important;
+	bottom: -35px !important;
+  }
+
+  
+#whatssap {
+	display: block;
+	position: fixed;
+	top: 80%;
+	transition: 300ms all;
+  }
+  
+  #whatssap img {
+    width: 27%;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    top: -40px;
+    left: 1383px;
+}
+
+
+.ui-accordion .ui-accordion-content{
+	height: 84px !important;
+}
+
+/*ESTILOS DEL FOOTER*/
+
+  #footer {
+	display: block;
+	width: 100%;
+	height: 432px;
+	margin: 0px auto;
+	color: white;
+	background-color: #181818;
+	text-align: center;
+}
+
+
+#footer #politicas-condiciones {
+	display: flex;
+	width: 100%;
+	align-content: center;
+	margin-left: 357px;
+	margin-top: -9px;
+	position: relative;
+	top: 184px;
+	left: 137px;
+}
+
+#footer p{
+	display: block;
+	margin: 0px auto;
+	position: relative;
+	top: 100px;
+}
+
+#footer #logo img {
+	display: block;
+	margin: 0px auto;
+	width: 12%;
+	position: relative;
+	top: 147px;
+}
+
+#footer #politicas-condiciones .politicas-terminos ul {
+	display: flex;
+	flex-flow: row wrap;
+	list-style: none;
+}
+
+#footer #politicas-condiciones .politicas-terminos ul li {
+	text-decoration: none;
+	border: none;
+	font-size: 14.5px;
+	padding: 25px;
+	margin: 0px auto;
+}
+
+#footer #politicas-condiciones .politicas-terminos ul li a {
+	text-decoration: none;
+	border: none;
+}
+
+#footer #politicas-condiciones .politicas-terminos ul li:hover a {
+	padding: 0px;
+	text-decoration: underline;
+}
+
+#footer ul li a{
+	color: white;
+	font-family: "OpenSans-Regular";
+	font-family: 20px;
+}

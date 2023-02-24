@@ -1,0 +1,644 @@
+/*Generales*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+body {
+	background-color: #eeeeee;
+	font-family: "OpenSans-Regular";
+	overflow-x: hidden;
+
+}
+
+.clearfix {
+	clear: both;
+	float: none;
+}
+
+
+/*Fuentes*/
+
+@font-face {
+	font-family: "OpenSans-Regular";
+	src: url("Fuentes/OpenSans-Regular.ttf");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "OpenSans-Bold";
+	src: url("Fuentes/OpenSans-Bold.ttf");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Signika";
+	src: url("Fuentes/Signika-VariableFont_wght.ttf");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	background-color: #eeeeee;
+	font-family: "OpenSans-Regular";
+}
+
+#container {
+	max-width: 95%;
+	background-color: rgb(255, 255, 255);
+	margin: 0px auto;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	box-shadow: 5px 0px 15px #ccc;
+	border-radius: 10px;
+}
+
+#header {
+	padding: 0px;
+}
+
+#header #barra_estilo {
+	width: 100%;
+	height: 115px;
+	background-color: #181818;
+}
+
+.b-estilop {
+	font-size: 18px;
+	color: white;
+	text-align: center;
+	line-height: 115px;
+	letter-spacing: 0.7px;
+}
+
+.b-stilop-autor {
+	color: white;
+	transition: all 300ms;
+}
+
+#header h1 {
+    font-size: 65px;
+    text-align: center;
+    font-family: 'Times New Roman', sans-serif;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 1px;
+    text-shadow: rgb(0, 0, 0) 0px 0px 0px;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+#header #logo img {
+	display: block;
+	margin: 0px auto;
+	width: 20%;
+	margin-bottom: 15px;
+}
+
+h2 {
+	font-size: 30px;
+	text-align: center;
+	font-family: 'Times New Roman', sans-serif;
+	color: #222;
+	margin-bottom: 20px;
+}
+
+.btn-acceder a {
+    display: block;
+    width: 72%;
+    padding: 18px 20px;
+    margin: 0px auto;
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    background-color: #0c58bb;
+    border-radius: 10px;
+    transition: all 300ms;
+    margin-bottom: 100px;
+}
+
+.btn-inicio img {
+	display: block;
+	width: 6%;
+	margin: 0px auto;
+	transition: all 300ms;
+	position: relative;
+	top: -16px;
+}
+
+.btn-leer a {
+    width: 20%;
+    display: block;
+    font-family: "OpenSans-Regular";
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #db4931;
+    color: white;
+    padding: 16px;
+    position: relative;
+    top: -63px;
+    left: 173px;
+    transition: all 300ms;
+}
+
+.btn-leer a:hover{
+    background: #d63016;
+}
+
+#btn-leer02 {
+	display: block;
+	position: relative;
+	top: 5px;
+}
+
+#btn-leer03{
+	display: block;
+	position: relative;
+	top: 2px;
+}
+
+#btn-leer04{
+	display: block;
+	position: relative;
+	top: 4px;
+}
+
+.b-stilop-academy a {
+	text-decoration: none;
+	color: white;
+}
+
+.b-stilop-academy a:hover {
+	color: rgb(221, 213, 213);
+}
+
+.btn-acceder a:hover {
+	background-color: #002f6d;
+	border-radius: 0px;
+}
+
+#estrategia {
+	width: 80%;
+	display: block;
+	margin: 0px auto;
+	margin-top: 215px;
+}
+
+#estrategia h3 {
+	background-color: #e3f15f;
+	height: 90px;
+	line-height: 90px;
+	font-family: "OpenSans-Bold";
+	font-size: 45px;
+	text-align: center;
+}
+
+#estrategia p {
+	display: block;
+	font-family: 'Times New Roman', sans-serif;
+	font-size: 35px;
+	font-weight: 700;
+	text-align: justify;
+	line-height: 70px;
+	margin: 10px;
+	padding: 25px;
+}
+
+#video {
+	width: 77%;
+	display: block;
+	margin: 0px auto;
+	margin-bottom: 20px;
+	padding: 20px;
+	padding-bottom: 30px;
+	text-align: center;
+	border: 2px solid #ccc;
+	box-shadow: 0px 0px 10px #ccc;
+}
+
+#video h3 {
+	font-family: 'Times New Roman', serif;
+	font-size: 31px;
+	margin-bottom: 20px;
+	border-bottom: 2px solid #ccc;
+}
+
+#video p {
+	font-size: 18px;
+	text-shadow: rgb(0, 0, 0) 0px 0px 0px;
+	position: relative;
+	top: 12px;
+}
+
+#contentido {
+	width: 80%;
+	display: block;
+	margin: 0px auto;
+	border: 1px solid #ccc;
+	box-shadow: 0px 0px 10px #ccc;
+	margin-top: 100px;
+}
+
+#contenido-h3-filosofia {
+	height: 115px;
+	line-height: 115px !important;
+	font-family: "OpenSans-Bold";
+	background-color:  #e3f15f;
+	margin-bottom: 30px;
+	font-size: 40px;
+	text-align: center;
+	color: black;
+}
+
+.text-contenido {
+	display: block;
+	font-family: 'Times New Roman', serif;
+	font-size: 30px;
+	text-align: justify;
+	margin: 30px;
+	padding: 20px;
+	line-height: 70px;
+	letter-spacing: 1px;
+	border-bottom: 2px solid #ccc;
+}
+
+.contadores h3 {
+	width: 100%;
+	display: block;
+	line-height: 0px;
+	margin: 0px auto;
+	position: relative;
+	left: 90px;
+	top: 70px;
+}
+
+.iconos img {
+	float: left;
+}
+
+.contadores {
+	display: block;
+	width: 100%;
+	margin: 0px auto;
+}
+
+.contadores img {
+	width: 14%;
+	padding: 30px;
+	margin: 30px;
+	margin-top: 70px;
+}
+
+
+.contador{
+	width: 24.7%;
+	text-align: center;
+	display: inline-block;
+	margin-top: 40px;
+	margin-top: 40px;
+}
+
+.fa-globe{
+	color: #44ddbc;
+}
+
+.fa-thumbs-up{
+	color: #2ca2da;
+}
+
+.fa-address-card-o{
+	color: #f14d24;
+}
+
+.fa-bar-chart{
+	color: #143f78;
+}
+
+.fa-5x{
+	font-size: 7em !important;
+}
+
+
+@keyframes aparecer{
+	0%{
+		opacity: 0;
+		transform: translateY(100px);
+	}
+
+	100%{
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.ocultar{
+	opacity: 0;
+}
+
+.animar{
+	animation: aparecer 1.3s;
+}
+
+.contador_cantidad{
+	font-size: 30px;
+	margin: 10px 0px;
+	font-weight: 900;
+
+}
+
+.btn-contactenos a {
+	display: block;
+	font-size: 28px;
+	font-weight: 700;
+	width: 20%;
+	margin: 0px auto;
+	background-color: #e3f15f;
+	color: #111;
+	padding: 18px 24px;
+	text-decoration: none;
+	text-align: center;
+	transition: all 300ms;
+	margin-bottom: 83px;
+	position: relative;
+	top: 83px;
+}
+
+.btn-contactenos a:hover {
+	background-color: #e0f527;
+	width: 24%;
+	color: #444;
+	border-radius: 10px;
+}
+
+
+
+
+/*Seccion Guia novatos*/
+
+#elegir-opciones {
+	display: block;
+	max-width: 1200px;
+	margin: 0px auto;
+}
+
+.seleccion-articulos h3 {
+    display: block;
+    text-align: center;
+    font-family: "OpenSans-Bold";
+    font-size: 30px;
+    position: relative;
+    left: -24px;
+    top: 15px;
+    text-shadow: 1px 3px 3px #ccc;
+}
+
+
+.card-1-planes{
+	display: block;
+	position: relative;
+}
+
+.card-2-planes{
+	display: block;
+	position: relative;
+}
+
+
+.card-3-planes{
+	display: block;
+	position: relative;
+}
+
+
+.card-4-planes{
+	display: block;
+	position: relative;
+}
+
+
+
+
+.seleccion-articulos {
+	display: block;
+	width: 50%;
+	margin-top: 30px;
+    margin-bottom: 30px;
+	float: left;
+}
+
+.card-article img {
+    margin-top: 30px;
+    width: 90%;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px #ccc;
+    padding-bottom: 80px;
+}
+
+#card-2 img {
+	display: block;
+	padding-bottom: 119px;
+}
+
+
+#card-4 img {
+    display: block;
+    padding-bottom: 106.7px;
+    position: relative;
+    top: -570px;
+}
+
+.article4 h3 {
+    position: relative;
+    top: -557px;
+}
+
+.lentra-hover {
+    width: 30%;
+    display: none;
+    font-family: "OpenSans-Bold";
+    font-size: 30px;
+    position: relative;
+    left: 241px;
+    top: 291px;
+    transition: all 300ms;
+}
+
+.seleccion-articulos:hover{
+    filter: saturate(180%);
+
+}
+
+#btn-leer01 {
+	display: block;
+	position: relative;
+	top: 0px;
+}
+
+#btn-leer02 {
+	display: block;
+	position: relative;
+	top: 6px;
+}
+
+#btn-leer03 {
+	display: block;
+	position: relative;
+	top: 1px;
+	left: 5px;
+}
+
+#btn-leer04 {
+    display: block;
+    position: relative;
+    top: -565px;
+    left: 7px;
+}
+
+
+
+h2{
+    display: block;
+
+}
+
+
+.img-articles img{
+    display: block;
+    width: 95%;
+    margin: 0px auto;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+article p {
+	width: 97%;
+	display: block;
+	margin: 0px auto;
+	font-size: 22px;
+	line-height: 58px;
+	text-align: justify;
+}
+
+.img-articles-resistencia{
+    display: block;
+    margin: 0px auto;
+    position: relative;
+    left: 30px;
+    width: 80%;
+    
+}
+
+
+.img-articles-resistencia:hover{
+    filter: saturate(180%);
+
+}
+
+
+
+
+/*Fin Seccion Guia novatos*/
+  
+#whatssap {
+	display: block;
+	position: fixed;
+	top: 80%;
+	transition: 300ms all;
+  }
+  
+  #whatssap img {
+    width: 27%;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    top: -40px;
+    left: 1383px;
+}
+
+
+
+
+.ui-accordion .ui-accordion-content{
+	height: 84px !important;
+}
+
+/*ESTILOS DEL FOOTER*/
+
+  #footer {
+	display: block;
+	width: 100%;
+	height: 432px;
+	margin: 0px auto;
+	color: white;
+	background-color: #181818;
+	text-align: center;
+}
+
+
+#footer #politicas-condiciones {
+	display: flex;
+	width: 100%;
+	align-content: center;
+	margin-left: 357px;
+	margin-top: -9px;
+	position: relative;
+	top: 184px;
+	left: 137px;
+}
+
+#footer p{
+	display: block;
+	margin: 0px auto;
+	position: relative;
+	top: 100px;
+}
+
+#footer #logo img {
+	display: block;
+	margin: 0px auto;
+	width: 12%;
+	position: relative;
+	top: 147px;
+}
+
+#footer #politicas-condiciones .politicas-terminos ul {
+	display: flex;
+	flex-flow: row wrap;
+	list-style: none;
+}
+
+#footer #politicas-condiciones .politicas-terminos ul li {
+	text-decoration: none;
+	border: none;
+	font-size: 14.5px;
+	padding: 25px;
+	margin: 0px auto;
+}
+
+#footer #politicas-condiciones .politicas-terminos ul li a {
+	text-decoration: none;
+	border: none;
+}
+
+#footer #politicas-condiciones .politicas-terminos ul li:hover a {
+	padding: 0px;
+	text-decoration: underline;
+}
+
+#footer ul li a{
+	color: white;
+	font-family: "OpenSans-Regular";
+	font-family: 20px;
+}

@@ -1,0 +1,476 @@
+@media screen and (max-width: 1920px) {
+    .recopilacion-video-0, .recopilacion-video-1, .recopilacion-video-2, .recopilacion-video-3 {
+        left: 145px;
+        top: 40px;
+    }
+    #cards-options-paquetes {
+        width: 90%;
+        height: 794px;
+    }
+    .btn-card-1-planes a {
+        width: 25%;
+        left: 307px;
+    }
+    .btn-card-2-planes a {
+        width: 14%;
+        left: 1068px;
+    }
+    #guia-novatos {
+        width: 100%;
+        height: 866px;
+    }
+    #cards-options {
+        width: 80%;
+        height: 750px;
+    }
+    .card-novatos {
+        height: 886px;
+    }
+    .btn-card-1 a {
+        left: 292px;
+        top: 40px;
+    }
+    .btn-card-2 a {
+        left: 989px;
+        top: -17px;
+    }
+    #whatssap img {
+        top: -40px;
+        left: 1783px;
+    }
+    .card-1 h5 {
+        top: 94px;
+        left: 268px;
+    }
+    .text-dowm-videos {
+        position: relative;
+        left: -169px;
+    }
+}
+
+@media screen and (max-width: 1580px) {
+    .recopilacion-video-0, .recopilacion-video-1, .recopilacion-video-2, .recopilacion-video-3 {
+        left: 37px;
+        top: 40px;
+    }
+    .text-dowm-videos {
+        left: 10px;
+    }
+    .btn-card-1-planes a {
+        left: 253px;
+    }
+    .btn-card-2-planes a {
+        left: 889px;
+    }
+    .btn-card-1 a {
+        left: 228px;
+        top: 45px;
+    }
+    .btn-card-2 a {
+        left: 800px;
+        top: -11px;
+    }
+    iframe {
+        display: block;
+        position: relative;
+        left: 38.5px;
+    }
+    #cards-options-paquetes {
+        width: 90%;
+        height: 665px;
+    }
+    .card-novatos {
+        height: 822px;
+    }
+    .card-1 h5 {
+        display: block;
+        font-size: 25px;
+        position: relative;
+        top: 94px;
+        left: 201px;
+    }
+    .card-2 h5 {
+        display: block;
+        font-size: 25px;
+        position: relative;
+        top: 94px;
+        left: 159px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    #video {
+        width: 90%;
+    }
+    #contentido {
+        width: 93%;
+    }
+    #traders {
+        width: 90%;
+    }
+    #video-fundaor, #video1, #video2, #video3 {
+        width: 93%;
+    }
+    #libertad-financiera {
+        width: 93%;
+    }
+    #curso-academy {
+        width: 93%;
+    }
+    .btn-card-1 a {
+        left: 225px;
+        top: 43px;
+    }
+    .btn-card-2 a {
+        left: 845px;
+        top: -14px;
+    }
+    .btn-card-2-planes a {
+        left: 807px;
+    }
+    #libertad-financiera p {
+        font-size: 23px;
+        font-weight: normal;
+        text-align: center;
+    }
+    .card-1-planes h5, .card-2-planes h5 {
+        top: 23px;
+        left: 177px;
+    }
+    #cards-options {
+        width: 93%;
+    }
+    #box-acordeon {
+        width: 93%;
+    }
+    #box-acordeon h5 {
+        width: 70%;
+    }
+    #curso-academy h4 {
+        font-size: 27px;
+    }
+    #footer #politicas-condiciones {
+        left: 63px;
+    }
+}
+
+@media screen and (max-width: 1330px) {
+    .menu_items li a {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    #header h1 {
+        font-size: 50px;
+    }
+    #video {
+        width: 87%;
+        overflow: hidden;
+    }
+    #contentido {
+        width: 90%;
+    }
+    #traders {
+        width: 90%;
+    }
+    .contador {
+        width: 23.7%;
+    }
+    .btn-contactenos a {
+        width: 28%;
+    }
+    .maquinas-text a {
+        width: 53%;
+    }
+    #video1, #video2, #video3 {
+        overflow: hidden;
+        width: 90%;
+    }
+    #libertad-financiera {
+        width: 90%;
+    }
+    #curso-academy {
+        width: 90%;
+    }
+    .img-recurso img {
+        width: 50%;
+    }
+    .signals-vip .imagen-signals img {
+        left: 1px;
+        width: 59%;
+    }
+    .mover-singals {
+        left: 138px;
+    }
+    .text-movil-señales {
+        left: 84px;
+    }
+    .text-after-signals {
+        top: -319px;
+        left: 680px;
+    }
+    .text-pruebasignals {
+        top: -353px;
+        left: 652px;
+    }
+    #no-multinivel {
+        width: 90%;
+    }
+    #no-multinivel h5 {
+        width: 90%;
+    }
+    #cards-options {
+        width: 90%;
+    }
+    .btn-card-1 a {
+        left: 194px;
+        width: 25%;
+        top: 46px;
+    }
+    .btn-card-2 a {
+        width: 13%;
+        left: 706px;
+        top: -6px;
+    }
+    #cards-options .profits img {
+        width: 37.8%;
+        padding-bottom: 68px;
+    }
+    .card-1-planes h5, .card-2-planes h5 {
+        top: 43px;
+        left: 129px;
+    }
+    #cards-options-paquetes .profits-planes img {
+        width: 45%;
+        left: 28px;
+        top: 52px;
+    }
+    #cards-options-paquetes .operandoenvivo-card-planes img {
+        width: 90.5%;
+        top: 51px;
+        left: 1px;
+    }
+    .btn-card-1-planes a {
+        width: 37%;
+        left: 158px;
+        top: -3px;
+    }
+    .btn-card-2-planes a {
+        width: 17%;
+        left: 663px;
+        top: -56px;
+    }
+    #box-acordeon {
+        width: 90%;
+    }
+    #box-acordeon h5 {
+        width: 60%;
+    }
+    #riesgo {
+        width: 90%;
+    }
+    #contacto {
+        width: 90%;
+    }
+    .text-slogan-señales {
+        left: 551px;
+    }
+    #footer #politicas-condiciones {
+        left: -21px;
+    }
+    .card-1 h5, .card-2 h5 {
+        display: block;
+        font-size: 25px;
+        position: relative;
+        top: 94px;
+        left: 136px;
+    }
+    .card-1 h5 {
+        left: 154px;
+    }
+    .btn-acceder-guianovatos a {
+        width: 28%;
+        top: 224px;
+    }
+}
+
+@media screen and (max-width: 1226px) {
+    .menu_items li a {
+        font-size: 12.5px;
+    }
+    .logo {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1196px) {
+    #header h1 {
+        font-size: 45px;
+    }
+    .menu_items li a {
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .logo {
+        font-size: 30px;
+    }
+    .btn-acceder a {
+        width: 63%;
+    }
+    @media screen and (max-width: 1166px) {
+        .menu_items li a {
+            font-size: 11px;
+            font-weight: bold;
+        }
+        .btn-acceder a {
+            width: 66%;
+        }
+        #estrategia h3 {
+            font-size: 40px;
+        }
+        #video h3 {
+            font-size: 29px;
+        }
+        .text-slogan-señales {
+            left: 517px;
+        }
+        .text-pruebasignals {
+            top: -338px;
+        }
+        .btn-card-1-planes a {
+            width: 37%;
+            left: 155px;
+            top: -29px;
+        }
+        .btn-card-2-planes a {
+            left: 659px;
+        }
+    }
+    @media screen and (max-width: 1100px) {
+        .menu_items li a {
+            font-size: 10px;
+            font-weight: bold;
+        }
+    }
+    @media screen and (max-width: 1046px) {
+        .menu_items li a {
+            font-size: 9.5px;
+            font-weight: bold;
+        }
+        .logo {
+            font-size: 25px;
+        }
+        #estrategia h3 {
+            font-size: 35px;
+        }
+        #estrategia p {
+            font-size: 26px;
+        }
+        #video h3 {
+            font-size: 25px;
+        }
+        .btn-contactenos a {
+            width: 30%;
+        }
+        .btn-contactenos a:hover {
+            width: 33%;
+        }
+        #trader p {
+            font-size: 26px;
+            line-height: 81px;
+        }
+        .maquinas-text a {
+            width: 57%;
+            font-size: 26px;
+        }
+        #contenido-h3-filosofia {
+            font-size: 35px;
+        }
+        .text-contenido {
+            font-size: 25px;
+        }
+        iframe {
+            width: 91%;
+        }
+        #libertad-financiera h4 {
+            font-size: 23px;
+        }
+        #libertad-financiera p {
+            font-size: 21px;
+        }
+        #libertad-financiera .texto-comercial-trader {
+            font-size: 25px;
+        }
+        #curso-academy h4 {
+            font-size: 23px;
+        }
+        .lista-cursoacademy {
+            top: -210px;
+        }
+        .text-slogan-señales {
+            left: 406px;
+        }
+        .text-after-signals {
+            top: -319px;
+            left: 555px;
+        }
+        .text-pruebasignals {
+            top: -338px;
+            left: 553px;
+        }
+        .btn-card-1-planes a {
+            left: 144px;
+            top: -3px;
+        }
+        .btn-card-2-planes a {
+            left: 598px;
+            top: -55px;
+        }
+        #no-multinivel h5 {
+            font-size: 25px;
+            top: 49px;
+        }
+        .card-novatos {
+            width: 90%;
+        }
+        .btn-card-1 a {
+            left: 165px;
+            width: 32%;
+            top: 46px;
+        }
+        .btn-card-2 a {
+            width: 15%;
+            left: 633px;
+            top: -6px;
+        }
+        .btn-acceder a {
+            width: 69%;
+        }
+        #header h1 {
+            font-size: 40px;
+        }
+        .strong-styles {
+            font-size: 34px;
+        }
+        .fa-5x {
+            font-size: 6em !important;
+        }
+        .contador_cantidad {
+            font-size: 25px;
+        }
+        #header h2 {
+            font-size: 27px;
+        }
+        .card-2 h5 {
+            top: 94px;
+            left: 107px;
+        }
+        #riesgo p {
+            font-size: 25px;
+        }
+        #footer #politicas-condiciones {
+            left: -97px;
+        }
+    }
+}

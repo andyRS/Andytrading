@@ -1,0 +1,130 @@
+@media (max-width: 768px){
+    #header h1 {
+        font-size: 35px;
+    }
+
+    .btn-acceder a {
+        width: 50%;
+        font-size: 20px;
+    }
+
+    #estrategia h3 {
+        font-size: 34px;
+    }
+
+    #estrategia p {
+        font-size: 30px;
+    }
+
+    #video h3 {
+        font-size: 27px;   
+    }
+
+    #contenido-h3-filosofia {   
+        font-size: 35px; 
+    }
+
+    .contador{
+        font-size: 13px;
+    }
+
+    .btn-contactenos a {
+        width: 26%;
+        font-size: 23px;
+    }
+
+    .maquinas-text a {
+        width: 58%;
+        font-size: 26px;
+    }
+
+    #libertad-financiera h4 {
+        font-size: 21px;
+    }
+
+    #libertad-financiera p { 
+        font-size: 20px;
+    }
+
+    #curso-academy h4 {
+        font-size: 22px;
+    }
+
+    .text-slogan {  
+        font-size: 37px;
+        top: 94px;
+        left: 16px;
+    }
+
+    .lista-cursoacademy {
+        font-size: 18px;
+        position: relative;
+        top: -102px;
+        left: 27px;
+    }
+
+    .text-atfer-slogan {
+        top: 112px;
+        left: 32px;
+    }
+
+    .text-slogan-señales {
+        font-size: 33px;
+        left: 284px;
+        top: -268px;
+    }
+
+    .text-after-signals {
+        top: -242px;
+        left: 373px;
+    }
+
+    .text-pruebasignals {
+        top: -262px;
+        left: 409px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    #no-multinivel h5 {
+        font-family: "OpenSans-Bold";
+        font-size: 26px;
+    }
+
+    .btn-card-1 a {
+        width: 26%;
+        font-size: 16px;
+        left: 99px;
+    }
+
+    .btn-card-2 a {
+        width: 14%;
+        font-size: 16px; 
+    }
+
+    .card-1 h5, .card-2 h5 {
+        top: 92px;
+        left: 82px;
+        font-size: 20px;
+    }
+
+    #cards-options h4 {  
+        width: 66%;
+        font-size: 29px;
+        height: 62px;
+        line-height: 62px;
+    }
+
+    #box-acordeon h5 {
+        font-size: 35px;
+    }
+
+    #riesgo p {
+        font-size: 26px;
+    }
+
+    #footer #politicas-condiciones {
+        left: -222px;
+    }
+    
+}

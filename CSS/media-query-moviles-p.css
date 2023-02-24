@@ -1,0 +1,394 @@
+@media (max-width: 320px){
+   
+        #container{
+            width: 100%;
+        }
+
+        .b-estilop {
+            font-size: 13px;
+        }
+    
+        #header h1 {
+            font-size: 11px;
+        }
+    
+        #header h2 {
+            font-size: 14px;
+        }
+    
+        .btn-acceder a {
+            width: 75%;
+            font-size: 13px;
+        }
+    
+        #header #logo img {
+            width: 60%;
+        }
+    
+        #estrategia h3 {
+            font-size: 14px;
+        }
+    
+        .strong-styles {
+            font-size: 18px !important;
+        }
+    
+        #traders {
+            width: 95%;
+            margin: 0px auto;
+            margin-top: 100px;
+            border: 1px solid #ccc;
+            box-shadow: 0px 0px 10px #ccc;
+        }
+    
+        #trader p {
+            width: 90%;
+            text-align: justify;
+            font-size: 13px;
+            line-height: 30px;
+            letter-spacing: 0px;
+        }
+    
+        #estrategia p {
+            position: relative;
+            width: 98%;
+            font-size: 15px;
+            font-weight: normal;
+            text-align: justify;
+            line-height: 51px;
+            left: -20px;
+        }
+    
+        #video {
+            width: 82%;
+            border: none;
+            box-shadow: 0px 0px 0px;
+        }
+    
+        #video h3 {
+            font-size: 13px;
+        }
+    
+        iframe {
+            width: 250px !important;
+            height: 200px !important;
+            position: relative;
+            left: 17px;
+        }
+    
+        #video p {
+            font-size: 12px;
+        }
+    
+        #contentido{
+            border: none;
+            box-shadow: 0px 0px 0px;
+        }
+    
+        #contenido-h3-filosofia {
+            width: 100%;
+            font-size: 23px;
+        }
+    
+
+        .text-contenido {
+            font-family: "OpenSans-Regular";
+            font-size: 13px;
+            text-align: justify;
+            width: 96%;
+            left: -16px;
+            position: relative;
+            line-height: 29px;
+            letter-spacing: 0.3px;
+        }
+    
+        .contador_cantidad {
+            font-size: 12px;
+        }
+    
+        .contador {
+            font-size: 5px;
+        }
+    
+        .btn-contactenos a {
+            width: 38%;
+            font-size: 13px;
+            position: relative;
+            top: 48px;
+        }
+    
+        .btn-contactenos a:hover {
+            width: 40%;
+        }
+    
+      
+    
+        #trader .trader-email {
+            font-size: 15px;
+        }
+
+        
+        #trader img {
+            margin-bottom: 16px;
+            width: 37%;
+        }
+    
+        .maquinas-text a {
+            width: 89%;
+            font-size: 16px;
+            position: relative;
+            top: 10px;
+            left: -2px;
+        }
+    
+        #video1 {
+            display: block;
+            position: relative;
+            left: -17px;
+            height: 332px;
+            border: none;
+            box-shadow: 0px 0px 0px;
+        }
+    
+        #video2{
+            display: block;
+            position: relative;
+            left: -17px;
+            height: 332px;
+            border: none;
+            box-shadow: 0px 0px 0px;
+        }
+    
+        #video1 h4 {
+            font-size: 17px;
+        }
+    
+        #video2 h4 {
+            font-size: 18px;
+            left: 2px;
+        }
+    
+        .text-dowm-videos {
+            font-size: 11px;
+            left: -22px;
+        }
+    
+        #libertad-financiera {
+            width: 95%;
+            border: 1px solid #ccc;
+            box-shadow: 0px 0px 10px #ccc;
+        }
+    
+      
+        #libertad-financiera h4 {
+            font-size: 12px;
+            height: 50px;
+            line-height: 26px;
+        }
+    
+        #libertad-financiera p {
+            font-size: 13px;
+            width: 90%;
+        }
+    
+        #libertad-financiera .texto-comercial-trader {
+            font-size: 13.5px;
+            width: 95%;
+            line-height: 35px;
+        }
+    
+        #curso-academy {
+            width: 95%;
+            height: 1745px;
+            border: 1px solid #ccc;
+            box-shadow: 0px 0px 10px #ccc;
+        }
+    
+        .img-recurso img {
+            width: 90%;
+        }
+    
+        #curso-academy h4 {
+            font-size: 10px;
+            line-height: 28px;
+        }
+    
+        .lista-cursoacademy {
+            font-size: 14px;
+            width: 90%;
+            position: relative;
+            left: 10px;
+        }
+    
+        #no-multinivel {
+            width: 95%;
+            height: auto;
+            border: none;
+            box-shadow: 0px 0px 10px #ccc;
+            height: 287px;
+        }
+    
+        .text-slogan {
+            font-size: 23px;
+            top: 62px;
+            left: 40px;
+        }
+    
+        .text-movil {
+            left: 44px;
+            top: -10px;
+        }
+    
+        .text-atfer-slogan {
+            top: 94px;
+            left: 47px;
+            font-size: 10px;
+        }
+    
+        .text-vivo {
+            left: 66px;
+            top: -40px;
+        }
+    
+      .text-slogan-señales {
+        font-size: 27px;
+        left: -48px;
+        top: -82px;
+    }
+    
+    
+        .mover-singals {
+            left: 116px;
+        }
+    
+        .text-after-signals {
+            top: -70px;
+            left: 44px;
+            font-size: 12px;
+            line-height: 27px;
+        }
+    
+        .signals-vip .imagen-signals img {
+            width: 88%;
+            top: 314px;
+            left: 11px;
+        }
+    
+        .text-pruebasignals {
+            width: 95%;
+            top: 123px;
+            left: 7px;
+            font-size: 13px;
+            text-align: justify;
+        }
+    
+        #cards-options {
+            width: 100%;
+            height: 933px;
+            box-shadow: 0px 0px 0px;
+            border: none;
+        }
+    
+        #cards-options h4 {
+            width: 99%;
+            font-size: 21px;
+        }
+    
+        #cards-options .operandoenvivo-card img {
+            position: relative;
+            width: 90%;
+            left: 9px;
+        }
+    
+        .btn-card-1 a {
+            width: 31%;
+            font-size: 16px;
+            left: 97px;
+        }
+    
+        .btn-card-2 a {
+            left: 96px;
+        }
+    
+        .card-1 h5 {
+            top: 92px;
+            left: 92px;
+            font-size: 18px;
+        }
+    
+        .card-2 h5 {
+            top: 92px;
+            left: 67px;
+            font-size: 18px;
+        }
+    
+    
+        #box-acordeon {
+            width: 96%;
+            border: none;
+            box-shadow: 0px 0px 0px;
+        }
+    
+        #box-acordeon h5 {
+            font-size: 16px;
+        }
+    
+        #riesgo {
+            width: 100%;
+            border: none;
+            box-shadow: 0px 0px 0px;
+        }
+    
+        .texto-riesgo{
+            width: 100%;
+        }
+    
+        #riesgo p {
+            font-size: 15px;
+            text-align: justify;
+            line-height: 29px;
+            letter-spacing: 0px;
+        }
+    
+        #contacto {
+            width: 95%;
+             border: none;
+            box-shadow: 0px 0px 0px ;
+        }
+
+        #contacto textarea {
+            width: 68%;
+        }
+
+        #footer #politicas-condiciones {
+            left: -331px;
+        }
+    
+        #footer ul li a {
+            font-size: 8px;
+        }
+    
+        #footer #politicas-condiciones .politicas-terminos ul li {
+            padding: 17px;
+        }
+
+        #footer p {
+            font-size: 12px;
+        }
+    
+        #whatssap img {
+            width: 18%;
+            left: 312px;
+            top: 40px;
+        }
+
+        #social-redes{
+            display: none;
+        }
+
+        .crisp-client{
+            display: none !important;
+        }
+    
+    }
+

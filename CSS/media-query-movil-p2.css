@@ -1,0 +1,393 @@
+@media (max-width: 360px){   
+    #container{
+        width: 100%;
+    }
+
+    .b-estilop {
+        font-size: 14px;
+    }
+
+    #header h1 {
+        font-size: 14px;
+        line-height: 30px;
+        letter-spacing: 0.5px;
+    }
+
+    .h1-syr {
+        font-size: 21px !important;
+    }
+
+    .strong-styles {
+        font-size: 21px !important;
+    }
+
+    #estrategia h3 {
+        font-size: 19px;
+    }
+
+    #header h2 {
+        font-size: 15px;
+    }
+
+    .btn-acceder a {
+        width: 68%;
+        font-size: 13px;
+    }
+
+    #header #logo img {
+        width: 60%;
+    }
+
+    #estrategia p {
+        font-size: 15px;
+        text-align: justify;
+        line-height: 43px;
+        font-weight: normal;
+    }
+
+    #estrategia h3 {
+        font-size: 17px;
+    }
+
+    #video h3 {
+        font-size: 12px;
+    }
+
+    iframe {
+        width: 250px;
+        height: 250px;
+        position: relative;
+        left: 25px;
+    }
+
+    #video p {
+        font-size: 12px;
+    }
+
+    #contentido {
+        width: 97%;
+        border: none;
+        box-shadow: 0px 0px 0px;
+    }
+
+    #contenido-h3-filosofia {
+        font-size: 25px;
+    }
+
+    .text-contenido {
+        font-size: 14px;
+        width: 91%;
+        display: block;
+        margin: 0px auto;
+        line-height: 37px;
+    }
+
+    .contador {
+        font-size: 6px;
+    }
+
+    #traders {
+        width: 97%;
+    }
+
+    #trader p {
+        font-size: 15px;
+        line-height: 36px;
+    }
+
+    #riesgo p {
+        font-size: 15px;
+        width: 90%;
+        line-height: 31px;
+    }
+
+    #riesgo h5 {
+        width: 80%;
+        font-size: 29px;
+        margin-top: 30px;
+    }
+
+
+    #video1, #video2, #video3 {
+        overflow: hidden;
+        width: 90%;
+        height: 400px;
+    }
+
+    #video1 iframe, #video2 iframe, #video3 iframe {
+      position: relative;
+      left: -5px;
+    }
+    #video1 h4, #video2 h4, #video3 h4 {
+        font-size: 18px;
+    }
+
+  
+    #video1 h4, #video2 h4 {
+        left: 0px;
+    }
+
+
+    .recopilacion-video-1, .recopilacion-video-2, .recopilacion-video-3 {
+        left: 43px;
+    }
+
+  .text-dowm-videos {
+	position: relative;
+	font-size: 9px;
+	left: -43px;
+    }
+
+    #libertad-financiera h4 {
+        font-size: 8px;
+        width: 100%;
+    }
+
+    #libertad-financiera p {
+        font-size: 11px;
+    }
+
+    #libertad-financiera .texto-comercial-trader {
+        font-size: 14px;
+        line-height: 30px;
+        width: 91%;
+    }
+
+    #curso-academy h4 {
+        font-size: 9.5px;
+        width: 100%;
+    }
+
+    .text-slogan {
+        font-size: 23px;
+        top: 90px;
+        left: 51px;
+    }
+    
+    .text-movil {
+        left: 44px;
+        top: -10px;
+    }
+
+    .text-atfer-slogan {
+        top: 87px;
+        left: 42px;
+        font-size: 12px;
+    }
+
+    .text-after-signals {
+        top: -33px;
+        left: 34px;
+    }
+
+    .text-vivo {
+        left: 66px;
+        top: -40px;
+    }
+
+    .lista-cursoacademy {
+        display: block;
+        margin: 0px auto;
+        font-size: 15px;
+        position: relative;
+        top: 48px;
+        left: 16px;
+    }
+
+    .text-slogan-señales {
+        font-size: 25px;
+        left: -36px;
+        top: -16px;
+    }
+
+    .mover-singals {
+        left: 122px;
+        line-height: 19px;
+    }
+    
+    .text-pruebasignals {
+        top: 123px;
+        left: 13px;
+        font-size: 13px;
+        text-align: justify;
+        width: 92%;
+        margin-top: 19px;
+    }
+
+    .text-pruebasignals {
+        top: 123px;
+        left: 13px;
+        font-size: 13px;
+        text-align: justify;
+        width: 92%;
+    }
+
+    .text-movil-señales {
+        left: 89px;
+    }
+
+    .signals-vip .imagen-signals img {
+        width: 99%;
+        top: 348px;
+        left: 0px;
+    }
+
+    #no-multinivel h5 {
+        font-size: 14px;
+    }
+
+    #cards-options h4 {
+        width: 95%;
+        font-size: 19px;
+    }
+
+    .btn-card-1 a {
+        width: 26%;
+        font-size: 14px;
+        left: 105px;
+    }
+
+    .btn-card-2 a {
+        width: 25%;
+        font-size: 14px;
+        left: 108px;
+        top: 36px;
+    }
+
+    .card-1 h5 {
+        top: 92px;
+        left: 84px;
+        font-size: 18px;
+    }
+
+    .card-2 h5 {
+        top: 92px;
+        left: 70px;
+        font-size: 18px;
+    }
+
+    .text-relleno {
+        display: block;
+        width: 90%;
+        top: 92px;
+        left: 12px;
+        border-bottom: 2px solid #ccc;
+        text-align: center;
+    }
+
+    #box-acordeon h5 {
+        width: 90%;
+    }
+
+    #guia-novatos {
+        width: 100%;
+        height: 285px;
+    }
+
+    .card-novatos {
+        width: 94%;
+        height: 306px;
+    }
+
+    .card-novatos img {
+        display: block;
+        width: 85%;
+        left: 1px;
+    }
+
+
+    .seleccion-articulos {
+        display: block;
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        float: none;
+        position: relative;
+        left: 15px;
+    }
+
+    .seleccion-articulos h3 {
+        font-size: 23px;
+        left: -24px;
+        top: 15px;
+     
+    }
+
+    .btn-leer a {
+        width: 33%;
+        font-size: 17px;
+        padding: 14px;
+        top: -57px;
+        left: 84px;   
+    }
+
+    h2 {
+        font-size: 23px;
+        margin-bottom: 21px;
+    }
+
+    .btn-inicio img {
+        width: 17%;
+        transition: all 300ms;
+    }
+
+    .btn-inicio img:hover{
+        filter: opacity(.5);
+    }
+
+    .img-articles-resistencia {
+        left: 0px;
+        width: 100%;
+    }
+
+    .img-articles-resistencia img{
+        display: block;
+        width: 100%;
+
+    }
+
+    article p {
+        width: 95%;
+        font-size: 17px;
+        line-height: 39px;
+        padding: 5px;
+    }
+
+    .text-img-movil, .text-img-movil-2, .text-img-movil-3, .text-img-movil-4 {
+        display: block;
+        margin: 0px auto;
+        width: 96%;
+        font-size: 16px;
+        text-align: justify;
+        position: relative;
+        top: -15px;
+        line-height: 34px;
+    }
+
+    .btn-acceder-guianovatos a {
+        width: 35%;
+        font-size: 14px;
+        top: 76px;
+    }
+
+    #contacto h5 {
+        width: 95%;
+        font-size: 24px;
+    }
+
+    #contacto textarea {
+        width: 72%;
+    }
+
+    #whatssap img {
+        width: 20%;
+        left: 293px;
+        top: -12px;
+    }
+
+    #footer #politicas-condiciones .politicas-terminos ul li {
+        padding: 11px;
+
+    }
+
+}
