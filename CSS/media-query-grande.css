@@ -62,7 +62,6 @@
         left: 10px;
     }
     .btn-card-1-planes a {
-        width: 28%;
         left: 253px;
     }
     .btn-card-2-planes a {
@@ -123,6 +122,7 @@
     #curso-academy {
         width: 93%;
     }
+    
     .btn-card-1 a {
         left: 225px;
         top: 43px;
@@ -131,6 +131,9 @@
         left: 845px;
         top: -14px;
     }
+    .btn-card-1-planes a {
+       width: 28%;
+      }
     .btn-card-2-planes a {
         left: 807px;
     }
