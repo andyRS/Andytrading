@@ -50,9 +50,9 @@
 
 @media screen and (max-width: 1580px) {
     .recopilacion-video-0, .recopilacion-video-1, .recopilacion-video-2, .recopilacion-video-3 {
-        left: 37px;
-        top: 40px;
-    }
+    left: -10px;
+    top: 40px;
+     }
     .text-dowm-videos {
         left: 10px;
     }
