@@ -576,17 +576,14 @@ ul.hide {
 	color: white;
 	cursor: pointer;
 }
-#video-fundador,
-#video1,
-#video2,
-#video3 {
-	display: block;
-	width: 80%;
-	height: 725px;
-	margin: 0px auto;
-	margin-top: 50px;
-	border: 1px solid #ccc;
-	box-shadow: 0px 0px 10px #ccc;
+#video-fundador, #video1, #video2, #video3 {
+    display: block;
+    width: 96%;
+    height: 734px;
+    margin: 0px auto;
+    margin-top: 50px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px #ccc;
 }
 .recopilacion-video-0,
 .recopilacion-video-1,
