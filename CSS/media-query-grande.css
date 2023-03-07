@@ -123,14 +123,14 @@
         width: 93%;
     }
     
-    .btn-card-1 a {
+     .btn-card-1 a {
         left: 225px;
-        top: 43px;
+        top: 46px;
     }
     .btn-card-2 a {
-        left: 845px;
-        top: -14px;
-    }
+    left: 820px;
+    top: -11px;
+     }
     .btn-card-1-planes a {
        width: 28%;
       }
