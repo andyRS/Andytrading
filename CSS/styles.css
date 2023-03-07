@@ -585,6 +585,11 @@ ul.hide {
     border: 1px solid #ccc;
     box-shadow: 0px 0px 10px #ccc;
 }
+
+#video-fundador{
+    width: 93%;
+}
+
 .recopilacion-video-0,
 .recopilacion-video-1,
 .recopilacion-video-2,
