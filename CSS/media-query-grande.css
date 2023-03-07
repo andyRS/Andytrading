@@ -50,7 +50,7 @@
 
 @media screen and (max-width: 1580px) {
 .recopilacion-video-1, .recopilacion-video-2, .recopilacion-video-3 {
-    left: -15px;
+    left: 1px;
     top: 40px;
      }
     
