@@ -49,8 +49,8 @@
 }
 
 @media screen and (max-width: 1580px) {
-    .recopilacion-video-0, .recopilacion-video-1, .recopilacion-video-2, .recopilacion-video-3 {
-    left: -10px;
+.recopilacion-video-1, .recopilacion-video-2, .recopilacion-video-3 {
+    left: -15px;
     top: 40px;
      }
     
