@@ -150,6 +150,12 @@
     #social-redes {
     width: 33px;
     }
+    .card-novatos img {
+        display: block;
+        width: 87.2%;
+        left: -2px;
+    }
+    
     #cards-options {
         width: 93%;
     }
